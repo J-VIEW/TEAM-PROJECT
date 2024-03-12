@@ -1,0 +1,650 @@
+version: "3.1"
+stories:
+- story: greeting path
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+- story: goodbye path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: thanks path
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+- story: help path
+  steps:
+  - intent: help
+  - action: utter_help
+- story: symptoms path
+  steps:
+  - intent: symptoms
+  - action: utter_symptoms
+- story: therapy path
+  steps:
+  - intent: therapy
+  - action: utter_therapy
+- story: medication path
+  steps:
+  - intent: medication
+  - action: utter_medication
+- story: self_care path
+  steps:
+  - intent: self_care
+  - action: utter_self_care
+- story: crisis path
+  steps:
+  - intent: crisis
+  - action: utter_crisis
+- story: fallback path
+  steps:
+  - intent: fallback
+  - action: utter_fallback
+- story: checking_in path
+  steps:
+  - intent: checking_in
+  - action: utter_checking_in
+- story: general_inquiry path
+  steps:
+  - intent: general_inquiry
+  - action: utter_general_inquiry
+- story: health_anxiety path
+  steps:
+  - intent: health_anxiety
+  - action: utter_health_anxiety
+- story: grief_and_loss path
+  steps:
+  - intent: grief_and_loss
+  - action: utter_grief_and_loss
+- story: sleep_issues path
+  steps:
+  - intent: sleep_issues
+  - action: utter_sleep_issues
+- story: personal_growth path
+  steps:
+  - intent: personal_growth
+  - action: utter_personal_growth
+- story: managing_emotions path
+  steps:
+  - intent: managing_emotions
+  - action: utter_managing_emotions
+- story: social_anxiety path
+  steps:
+  - intent: social_anxiety
+  - action: utter_social_anxiety
+- story: substance_use path
+  steps:
+  - intent: substance_use
+  - action: utter_substance_use
+- story: eating_disorders path
+  steps:
+  - intent: eating_disorders
+  - action: utter_eating_disorders
+- story: stress_management path
+  steps:
+  - intent: stress_management
+  - action: utter_stress_management
+- story: body_image_issues path
+  steps:
+  - intent: body_image_issues
+  - action: utter_body_image_issues
+- story: academic_anxiety path
+  steps:
+  - intent: academic_anxiety
+  - action: utter_academic_anxiety
+- story: positive_thinking path
+  steps:
+  - intent: positive_thinking
+  - action: utter_positive_thinking
+- story: loneliness path
+  steps:
+  - intent: loneliness
+  - action: utter_loneliness
+- story: motivation path
+  steps:
+  - intent: motivation
+  - action: utter_motivation
+- story: anger_management path
+  steps:
+  - intent: anger_management
+  - action: utter_anger_management
+- story: referral_to_professional path
+  steps:
+  - intent: referral_to_professional
+  - action: utter_referral_to_professional
+- story: coping_strategies path
+  steps:
+  - intent: coping_strategies
+  - action: utter_coping_strategies
+- story: emotional_support path
+  steps:
+  - intent: emotional_support
+  - action: utter_emotional_support
+- story: self_help_recommendations path
+  steps:
+  - intent: self_help_recommendations
+  - action: utter_self_help_recommendations
+- story: general_advice path
+  steps:
+  - intent: general_advice
+  - action: utter_general_advice
+- story: miscellaneous_queries path
+  steps:
+  - intent: miscellaneous_queries
+  - action: utter_miscellaneous_queries
+- story: encouragement path
+  steps:
+  - intent: encouragement
+  - action: utter_encouragement
+- story: relationship_advice path
+  steps:
+  - intent: relationship_advice
+  - action: utter_relationship_advice
+- story: workplace_stress path
+  steps:
+  - intent: workplace_stress
+  - action: utter_workplace_stress
+- story: self_esteem_issues path
+  steps:
+  - intent: self_esteem_issues
+  - action: utter_self_esteem_issues
+- story: anxiety_management path
+  steps:
+  - intent: anxiety_management
+  - action: utter_anxiety_management
+- story: what is depression? path
+  steps:
+  - intent: what is depression?
+  - action: utter_what is depression?
+- story: dealing_with_change path
+  steps:
+  - intent: dealing_with_change
+  - action: utter_dealing_with_change
+- story: existential_questions path
+  steps:
+  - intent: existential_questions
+  - action: utter_existential_questions
+- story: seeking_comfort path
+  steps:
+  - intent: seeking_comfort
+  - action: utter_seeking_comfort
+- story: seeking_information path
+  steps:
+  - intent: seeking_information
+  - action: utter_seeking_information
+- story: self_acceptance path
+  steps:
+  - intent: self_acceptance
+  - action: utter_self_acceptance
+- story: relationship_issues path
+  steps:
+  - intent: relationship_issues
+  - action: utter_relationship_issues
+- story: coping_with_loss path
+  steps:
+  - intent: coping_with_loss
+  - action: utter_coping_with_loss
+- story: career_guidance path
+  steps:
+  - intent: career_guidance
+  - action: utter_career_guidance
+- story: managing_fear path
+  steps:
+  - intent: managing_fear
+  - action: utter_managing_fear
+- story: managing_anxiety path
+  steps:
+  - intent: managing_anxiety
+  - action: utter_managing_anxiety
+- story: coping_with_stress path
+  steps:
+  - intent: coping_with_stress
+  - action: utter_coping_with_stress
+- story: building_self_esteem path
+  steps:
+  - intent: building_self_esteem
+  - action: utter_building_self_esteem
+- story: dealing_with_loneliness path
+  steps:
+  - intent: dealing_with_loneliness
+  - action: utter_dealing_with_loneliness
+- story: handling_mood_swings path
+  steps:
+  - intent: handling_mood_swings
+  - action: utter_handling_mood_swings
+- story: exploring_identity_issues path
+  steps:
+  - intent: exploring_identity_issues
+  - action: utter_exploring_identity_issues
+- story: addressing_procrastination path
+  steps:
+  - intent: addressing_procrastination
+  - action: utter_addressing_procrastination
+- story: navigating_career_transitions path
+  steps:
+  - intent: navigating_career_transitions
+  - action: utter_navigating_career_transitions
+- story: overcoming_negativity path
+  steps:
+  - intent: overcoming_negativity
+  - action: utter_overcoming_negativity
+- story: dealing_with_frustration path
+  steps:
+  - intent: dealing_with_frustration
+  - action: utter_dealing_with_frustration
+- story: building_resilience path
+  steps:
+  - intent: building_resilience
+  - action: utter_building_resilience
+- story: improving_concentration path
+  steps:
+  - intent: improving_concentration
+  - action: utter_improving_concentration
+- story: handling_guilt path
+  steps:
+  - intent: handling_guilt
+  - action: utter_handling_guilt
+- story: managing_burnout path
+  steps:
+  - intent: managing_burnout
+  - action: utter_managing_burnout
+- story: addressing_feelings_of_failure path
+  steps:
+  - intent: addressing_feelings_of_failure
+  - action: utter_addressing_feelings_of_failure
+- story: seeking_meaning_and_purpose path
+  steps:
+  - intent: seeking_meaning_and_purpose
+  - action: utter_seeking_meaning_and_purpose
+- story: overcoming_insecurity path
+  steps:
+  - intent: overcoming_insecurity
+  - action: utter_overcoming_insecurity
+- story: dealing_with_jealousy path
+  steps:
+  - intent: dealing_with_jealousy
+  - action: utter_dealing_with_jealousy
+- story: handling_rejection path
+  steps:
+  - intent: handling_rejection
+  - action: utter_handling_rejection
+- story: struggling_with_change path
+  steps:
+  - intent: struggling_with_change
+  - action: utter_struggling_with_change
+- story: addressing_loneliness path
+  steps:
+  - intent: addressing_loneliness
+  - action: utter_addressing_loneliness
+- story: managing_anger path
+  steps:
+  - intent: managing_anger
+  - action: utter_managing_anger
+- story: overcoming_fear path
+  steps:
+  - intent: overcoming_fear
+  - action: utter_overcoming_fear
+- story: navigating_relationship_difficulties path
+  steps:
+  - intent: navigating_relationship_difficulties
+  - action: utter_navigating_relationship_difficulties
+- story: dealing_with_anxiety_attacks path
+  steps:
+  - intent: dealing_with_anxiety_attacks
+  - action: utter_dealing_with_anxiety_attacks
+- story: managing_social_anxiety path
+  steps:
+  - intent: managing_social_anxiety
+  - action: utter_managing_social_anxiety
+- story: understanding_emotions path
+  steps:
+  - intent: understanding_emotions
+  - action: utter_understanding_emotions
+- story: coping_with_grief path
+  steps:
+  - intent: coping_with_grief
+  - action: utter_coping_with_grief
+- story: overcoming_hopelessness path
+  steps:
+  - intent: overcoming_hopelessness
+  - action: utter_overcoming_hopelessness
+- story: addressing_chronic_illness path
+  steps:
+  - intent: addressing_chronic_illness
+  - action: utter_addressing_chronic_illness
+- story: addressing_body_image_issues path
+  steps:
+  - intent: addressing_body_image_issues
+  - action: utter_addressing_body_image_issues
+- story: dealing_with_obsessive_thoughts path
+  steps:
+  - intent: dealing_with_obsessive_thoughts
+  - action: utter_dealing_with_obsessive_thoughts
+- story: navigating_life_transitions path
+  steps:
+  - intent: navigating_life_transitions
+  - action: utter_navigating_life_transitions
+- story: finding_motivation path
+  steps:
+  - intent: finding_motivation
+  - action: utter_finding_motivation
+- story: handling_worry path
+  steps:
+  - intent: handling_worry
+  - action: utter_handling_worry
+- story: developing_self_compassion path
+  steps:
+  - intent: developing_self_compassion
+  - action: utter_developing_self_compassion
+- story: farewells path
+  steps:
+  - intent: farewells
+  - action: utter_farewells
+- story: small_talk path
+  steps:
+  - intent: small_talk
+  - action: utter_small_talk
+- story: providing_information path
+  steps:
+  - intent: providing_information
+  - action: utter_providing_information
+- story: responding_to_thanks path
+  steps:
+  - intent: responding_to_thanks
+  - action: utter_responding_to_thanks
+- story: responding_to_apologies path
+  steps:
+  - intent: responding_to_apologies
+  - action: utter_responding_to_apologies
+- story: asking_for_help path
+  steps:
+  - intent: asking_for_help
+  - action: utter_asking_for_help
+- story: expressing_confusion path
+  steps:
+  - intent: expressing_confusion
+  - action: utter_expressing_confusion
+- story: expressing_satisfaction path
+  steps:
+  - intent: expressing_satisfaction
+  - action: utter_expressing_satisfaction
+- story: handling_complaints path
+  steps:
+  - intent: handling_complaints
+  - action: utter_handling_complaints
+- story: making_suggestions path
+  steps:
+  - intent: making_suggestions
+  - action: utter_making_suggestions
+- story: inquiring_about_services path
+  steps:
+  - intent: inquiring_about_services
+  - action: utter_inquiring_about_services
+- story: seeking_opinions path
+  steps:
+  - intent: seeking_opinions
+  - action: utter_seeking_opinions
+- story: expressing_gratitude path
+  steps:
+  - intent: expressing_gratitude
+  - action: utter_expressing_gratitude
+- story: requesting_feedback path
+  steps:
+  - intent: requesting_feedback
+  - action: utter_requesting_feedback
+- story: general_inquiries path
+  steps:
+  - intent: general_inquiries
+  - action: utter_general_inquiries
+- story: clarifying_questions path
+  steps:
+  - intent: clarifying_questions
+  - action: utter_clarifying_questions
+- story: offering_assistance path
+  steps:
+  - intent: offering_assistance
+  - action: utter_offering_assistance
+- story: handling_user_frustration path
+  steps:
+  - intent: handling_user_frustration
+  - action: utter_handling_user_frustration
+- story: expressing_empathy path
+  steps:
+  - intent: expressing_empathy
+  - action: utter_expressing_empathy
+- story: inquiring_about_time path
+  steps:
+  - intent: inquiring_about_time
+  - action: utter_inquiring_about_time
+- story: responding_to_jokes path
+  steps:
+  - intent: responding_to_jokes
+  - action: utter_responding_to_jokes
+- story: providing_directions path
+  steps:
+  - intent: providing_directions
+  - action: utter_providing_directions
+- story: handling_user_errors path
+  steps:
+  - intent: handling_user_errors
+  - action: utter_handling_user_errors
+- story: responding_to_user_excitement path
+  steps:
+  - intent: responding_to_user_excitement
+  - action: utter_responding_to_user_excitement
+- story: inquiring_about_daily_activities path
+  steps:
+  - intent: inquiring_about_daily_activities
+  - action: utter_inquiring_about_daily_activities
+- story: responding_to_user_curiosity path
+  steps:
+  - intent: responding_to_user_curiosity
+  - action: utter_responding_to_user_curiosity
+- story: offering_comfort path
+  steps:
+  - intent: offering_comfort
+  - action: utter_offering_comfort
+- story: celebrating_success path
+  steps:
+  - intent: celebrating_success
+  - action: utter_celebrating_success
+- story: seeking_relationship_advice path
+  steps:
+  - intent: seeking_relationship_advice
+  - action: utter_seeking_relationship_advice
+- story: building_strong_relationships path
+  steps:
+  - intent: building_strong_relationships
+  - action: utter_building_strong_relationships
+- story: dealing_with_breakups path
+  steps:
+  - intent: dealing_with_breakups
+  - action: utter_dealing_with_breakups
+- story: navigating_long_distance_relationships path
+  steps:
+  - intent: navigating_long_distance_relationships
+  - action: utter_navigating_long_distance_relationships
+- story: communicating_in_relationships path
+  steps:
+  - intent: communicating_in_relationships
+  - action: utter_communicating_in_relationships
+- story: trust_issues_in_relationships path
+  steps:
+  - intent: trust_issues_in_relationships
+  - action: utter_trust_issues_in_relationships
+- story: resolving_conflicts path
+  steps:
+  - intent: resolving_conflicts
+  - action: utter_resolving_conflicts
+- story: managing_relationship_expectations path
+  steps:
+  - intent: managing_relationship_expectations
+  - action: utter_managing_relationship_expectations
+- story: starting_new_relationships path
+  steps:
+  - intent: starting_new_relationships
+  - action: utter_starting_new_relationships
+- story: relationship_boundaries path
+  steps:
+  - intent: relationship_boundaries
+  - action: utter_relationship_boundaries
+- story: relationship_anxiety path
+  steps:
+  - intent: relationship_anxiety
+  - action: utter_relationship_anxiety
+- story: navigating_relationship_conflicts path
+  steps:
+  - intent: navigating_relationship_conflicts
+  - action: utter_navigating_relationship_conflicts
+- story: rekindling_romance path
+  steps:
+  - intent: rekindling_romance
+  - action: utter_rekindling_romance
+- story: managing_distance_in_relationships path
+  steps:
+  - intent: managing_distance_in_relationships
+  - action: utter_managing_distance_in_relationships
+- story: dealing_with_insecurity_in_relationships path
+  steps:
+  - intent: dealing_with_insecurity_in_relationships
+  - action: utter_dealing_with_insecurity_in_relationships
+- story: navigating_relationship_transitions path
+  steps:
+  - intent: navigating_relationship_transitions
+  - action: utter_navigating_relationship_transitions
+- story: expressing_concern path
+  steps:
+  - intent: expressing_concern
+  - action: utter_expressing_concern
+- story: offering_support path
+  steps:
+  - intent: offering_support
+  - action: utter_offering_support
+- story: encouraging_self_care path
+  steps:
+  - intent: encouraging_self_care
+  - action: utter_encouraging_self_care
+- story: discussing_depression_symptoms path
+  steps:
+  - intent: discussing_depression_symptoms
+  - action: utter_discussing_depression_symptoms
+- story: addressing_stress_management path
+  steps:
+  - intent: addressing_stress_management
+  - action: utter_addressing_stress_management
+- story: exploring_therapy_options path
+  steps:
+  - intent: exploring_therapy_options
+  - action: utter_exploring_therapy_options
+- story: managing_relationship_stress path
+  steps:
+  - intent: managing_relationship_stress
+  - action: utter_managing_relationship_stress
+- story: encouraging_open_discussion path
+  steps:
+  - intent: encouraging_open_discussion
+  - action: utter_encouraging_open_discussion
+- story: validating_user_emotions path
+  steps:
+  - intent: validating_user_emotions
+  - action: utter_validating_user_emotions
+- story: guiding_through_difficulties path
+  steps:
+  - intent: guiding_through_difficulties
+  - action: utter_guiding_through_difficulties
+- story: offering_comfort_and_reassurance path
+  steps:
+  - intent: offering_comfort_and_reassurance
+  - action: utter_offering_comfort_and_reassurance
+- story: providing_motivation path
+  steps:
+  - intent: providing_motivation
+  - action: utter_providing_motivation
+- story: coping_with_change path
+  steps:
+  - intent: coping_with_change
+  - action: utter_coping_with_change
+- story: managing_emotional_overwhelm path
+  steps:
+  - intent: managing_emotional_overwhelm
+  - action: utter_managing_emotional_overwhelm
+- story: navigating_relationships path
+  steps:
+  - intent: navigating_relationships
+  - action: utter_navigating_relationships
+- story: parenting_challenges path
+  steps:
+  - intent: parenting_challenges
+  - action: utter_parenting_challenges
+- story: balancing_work_life path
+  steps:
+  - intent: balancing_work_life
+  - action: utter_balancing_work_life
+- story: understanding_depression path
+  steps:
+  - intent: understanding_depression
+  - action: utter_understanding_depression
+- story: dealing_with_depression path
+  steps:
+  - intent: dealing_with_depression
+  - action: utter_dealing_with_depression
+- story: supporting_depressed_individual path
+  steps:
+  - intent: supporting_depressed_individual
+  - action: utter_supporting_depressed_individual
+- story: lifestyle_changes_for_depression path
+  steps:
+  - intent: lifestyle_changes_for_depression
+  - action: utter_lifestyle_changes_for_depression
+- story: depression_and_relationships path
+  steps:
+  - intent: depression_and_relationships
+  - action: utter_depression_and_relationships
+- story: depression_and_self_care path
+  steps:
+  - intent: depression_and_self_care
+  - action: utter_depression_and_self_care
+- story: depression_recovery_journey path
+  steps:
+  - intent: depression_recovery_journey
+  - action: utter_depression_recovery_journey
+- story: depression_and_work path
+  steps:
+  - intent: depression_and_work
+  - action: utter_depression_and_work
+- story: depression_symptom_management path
+  steps:
+  - intent: depression_symptom_management
+  - action: utter_depression_symptom_management
+- story: depression_and_social_life path
+  steps:
+  - intent: depression_and_social_life
+  - action: utter_depression_and_social_life
+- story: depression_and_identity path
+  steps:
+  - intent: depression_and_identity
+  - action: utter_depression_and_identity
+- story: depression_and_daily_routine path
+  steps:
+  - intent: depression_and_daily_routine
+  - action: utter_depression_and_daily_routine
+- story: acknowledging_self_rejection path
+  steps:
+  - intent: acknowledging_self_rejection
+  - action: utter_acknowledging_self_rejection
+- story: overcoming_self_rejection path
+  steps:
+  - intent: overcoming_self_rejection
+  - action: utter_overcoming_self_rejection
+- story: coping_with_self_rejection path
+  steps:
+  - intent: coping_with_self_rejection
+  - action: utter_coping_with_self_rejection
+- story: urgent_support_for_suicidal_thoughts path
+  steps:
+  - intent: urgent_support_for_suicidal_thoughts
+  - action: utter_urgent_support_for_suicidal_thoughts
+- story: post_suicidal_thoughts_support path
+  steps:
+  - intent: post_suicidal_thoughts_support
+  - action: utter_post_suicidal_thoughts_support

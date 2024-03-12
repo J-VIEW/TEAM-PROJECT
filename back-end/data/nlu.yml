@@ -1,0 +1,1164 @@
+version: "3.1"
+nlu:
+- intent: greeting
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+    - Hi
+    - Hey
+    - How are you
+    - Is anyone there?
+    - Hello
+    - Good day
+    - Hey there
+    - Good morning
+    - Good evening
+    - How's it going
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+    - I have to go
+    - That's all for now
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - Appreciate it
+    - That's helpful
+    - Thank's a lot!
+- intent: help
+  examples: |
+    - Help
+    - How can you help?
+    - What can you do?
+- intent: symptoms
+  examples: |
+    - What are the symptoms of anxiety?
+    - Signs of depression?
+    - Symptoms of PTSD?
+- intent: therapy
+  examples: |
+    - What is therapy?
+    - Types of therapy?
+    - How does therapy work?
+- intent: medication
+  examples: |
+    - What are antidepressants?
+    - Medications for anxiety?
+    - How do psychiatric medications work?
+- intent: self_care
+  examples: |
+    - Self-care tips
+    - How to practice self-care
+    - Ways to take care of myself
+- intent: crisis
+  examples: |
+    - I'm in crisis
+    - Emergency help
+    - Suicidal thoughts
+    - I am thinking about harming myself
+    - I don't want to live anymore
+    - I feel like giving up
+    - I can't take this anymore
+    - I'm thinking about suicide
+- intent: fallback
+  examples: |
+    - I don't understand what you're saying.
+    - Can you repeat that?
+    - Sorry, I'm not sure what you mean.
+    - Hmm, I'm not equipped to answer that.
+    - I'm confused; could you clarify?
+    - That's beyond my understanding right now.
+    - I'm still learning and didn't get that.
+    - Could you phrase that differently?
+    - I'm not programmed to understand that.
+    - I need help understanding what you're asking.
+- intent: checking_in
+  examples: |
+    - How's it going?
+    - How are you?
+    - What's up?
+    - How have you been?
+    - What’s new?
+- intent: general_inquiry
+  examples: |
+    - Can you help me?
+    - I need some advice
+    - What should I do if I feel sad?
+    - I'm feeling stressed
+    - I'm not sure what to do
+- intent: health_anxiety
+  examples: |
+    - I'm always worried about my health
+    - What if I have a serious illness?
+    - I can't stop thinking about getting sick
+    - I'm obsessed with my symptoms
+    - Every small symptom worries me
+- intent: grief_and_loss
+  examples: |
+    - I recently lost someone close
+    - How do I deal with the death of a loved one?
+    - I'm struggling with grief
+    - It's hard to move on after a loss
+    - I can't stop feeling sad about losing someone
+- intent: sleep_issues
+  examples: |
+    - I have trouble falling asleep
+    - I wake up in the middle of the night
+    - I'm always tired because I can't sleep well
+    - How can I improve my sleep quality?
+    - I suffer from insomnia
+- intent: personal_growth
+  examples: |
+    - I want to improve myself
+    - How can I be a better person?
+    - I'm working on personal development
+    - What are good self-improvement goals?
+    - I want to grow emotionally and mentally
+- intent: managing_emotions
+  examples: |
+    - I feel angry all the time
+    - How do I control my emotions?
+    - I can't stop crying over small things
+    - I'm struggling with mood swings
+    - I get upset very easily
+- intent: social_anxiety
+  examples: |
+    - I'm scared of social situations
+    - I feel anxious in crowds
+    - How do I overcome my fear of meeting new people?
+    - I avoid social gatherings
+    - Talking to strangers makes me nervous
+- intent: substance_use
+  examples: |
+    - I think I'm drinking too much
+    - How do I know if I have a substance abuse problem?
+    - I can't stop using drugs
+    - I need help with addiction
+    - My friend is struggling with substance abuse
+- intent: eating_disorders
+  examples: |
+    - I'm worried about my eating habits
+    - I think I might have an eating disorder
+    - How can I overcome my fear of eating?
+    - I'm obsessed with my weight and food
+    - My friend is starving themselves
+- intent: stress_management
+  examples: |
+    - I'm under a lot of stress
+    - How do I handle stress better?
+    - I feel stressed all the time
+    - My job is causing me too much stress
+    - What are good stress relief techniques?
+- intent: body_image_issues
+  examples: |
+    - I'm unhappy with my body
+    - How can I improve my body image?
+    - I always compare myself to others
+    - I feel bad about my looks
+    - I'm obsessed with my appearance
+- intent: academic_anxiety
+  examples: |
+    - I'm stressed about school
+    - I have anxiety about exams
+    - How do I deal with academic pressure?
+    - I'm afraid of failing in school
+    - I can't focus on my studies
+- intent: positive_thinking
+  examples: |
+    - How can I be more optimistic?
+    - I want to have a positive outlook
+    - I always think negatively
+    - How do I stop negative thoughts?
+    - I struggle with pessimism
+- intent: loneliness
+  examples: |
+    - I feel so alone
+    - How can I deal with loneliness?
+    - Nobody seems to understand me
+    - I don't have any friends
+    - I'm always by myself
+- intent: motivation
+  examples: |
+    - I have no motivation
+    - How can I motivate myself?
+    - I can't get myself to do anything
+    - I've lost interest in my hobbies
+    - Nothing excites me anymore
+- intent: anger_management
+  examples: |
+    - I get angry too quickly
+    - How do I control my anger?
+    - I can't keep my temper in check
+    - I regret things I do when I'm angry
+    - My anger is affecting my relationships
+- intent: referral_to_professional
+  examples: |
+    - Should I see a therapist?
+    - I need professional help
+    - Can you recommend a psychiatrist?
+    - How do I find a counselor?
+    - I think I need to talk to someone
+- intent: coping_strategies
+  examples: |
+    - How do I deal with anxiety?
+    - What are some stress-relief techniques?
+    - I can't sleep because I'm worried
+    - How to handle panic attacks?
+    - Ways to manage depression?
+- intent: emotional_support
+  examples: |
+    - I'm feeling lonely
+    - No one understands me
+    - I'm upset and don't know why
+    - I feel like nobody cares
+    - I'm so sad all the time
+- intent: self_help_recommendations
+  examples: |
+    - How can I help myself?
+    - What are some self-care activities?
+    - I need ways to improve my mood
+    - Any advice on self-improvement?
+    - How do I deal with negative thoughts?
+- intent: general_advice
+  examples: |
+    - How can I be happier?
+    - Ways to reduce stress?
+    - Can you give me life advice?
+    - How to be more positive?
+    - I want to change my life
+- intent: miscellaneous_queries
+  examples: |
+    - Tell me a joke
+    - What's the weather today?
+    - Can you recommend a book?
+    - Tell me something interesting
+    - Do you have any quotes?
+- intent: encouragement
+  examples: |
+    - I feel overwhelmed
+    - Everything is so hard
+    - I'm struggling with my emotions
+    - I feel like I'm failing
+    - It's hard to keep going
+- intent: relationship_advice
+  examples: |
+    - I'm having trouble with my partner
+    - How do I improve my relationships?
+    - I feel lonely in my relationship
+    - We argue all the time
+    - How to deal with a breakup?
+    - I broke up with my girlfriend
+    - I broke up with my boyfriend
+    - I broke up with my patner
+    -How can I get over a break up
+- intent: workplace_stress
+  examples: |
+    - My job is so stressful
+    - I'm struggling with work-life balance
+    - How to deal with a toxic coworker?
+    - I'm considering a career change
+    - I feel burnt out from work
+- intent: self_esteem_issues
+  examples: |
+    - I have low self-esteem
+    - How can I feel better about myself?
+    - I always feel inadequate
+    - I'm too hard on myself
+    - Why don't I feel good enough?
+- intent: anxiety_management
+  examples: |
+    - I can't stop worrying about everything
+    - My anxiety is getting worse
+    - How do I manage panic attacks?
+    - I'm always tense and nervous
+    - Ways to reduce anxiety?
+- intent: what is depression?
+  examples: |
+    - what is depression?
+    -can you tell me what is depression
+    -so what is depression
+    -I think i might be having depression
+- intent: dealing_with_change
+  examples: |
+    - I'm struggling to cope with change
+    - How can I adapt to new situations?
+    - Change makes me anxious
+    - I fear changes in my life
+    - Everything is changing so fast
+- intent: existential_questions
+  examples: |
+    - What's the meaning of life?
+    - I'm questioning the purpose of life
+    - Why do we exist?
+    - Life feels meaningless
+    - I'm struggling with existential thoughts
+- intent: seeking_comfort
+  examples: |
+    - I just need someone to talk to
+    - I'm looking for comfort
+    - Can you make me feel better?
+    - I need a bit of encouragement
+    - I'm feeling down, just want to chat
+- intent: seeking_information
+  examples: |
+    - Can you tell me about anxiety?
+    - What are the symptoms of depression?
+    - How do I know if I have PTSD?
+    - What is bipolar disorder?
+    - Tell me about mental health
+- intent: self_acceptance
+  examples: |
+    - I'm struggling with self-acceptance
+    - How can I accept myself?
+    - I don't like who I am
+    - I have a hard time accepting my flaws
+    - I feel bad about myself
+- intent: relationship_issues
+  examples: |
+    - I'm having problems in my relationship
+    - How can I improve my relationship?
+    - My partner and I always fight
+    - I'm not happy in my relationship
+    - I'm thinking about ending my relationship
+- intent: coping_with_loss
+  examples: |
+    - I've lost someone important to me
+    - How do I cope with loss?
+    - I can't get over someone's death
+    - I'm grieving and don't know what to do
+    - The pain of loss is overwhelming
+- intent: career_guidance
+  examples: |
+    - I'm unhappy with my job
+    - Should I change my career?
+    - I don't know what job is right for me
+    - I'm considering quitting my job
+    - How do I find a fulfilling career?
+- intent: managing_fear
+  examples: |
+    - I'm always scared
+    - How can I overcome my fears?
+    - Everything frightens me
+    - I have irrational fears
+    - My fear is controlling my life
+- intent: managing_anxiety
+  examples: |
+    - I'm always anxious
+    - How can I reduce my anxiety?
+    - I can't control my worry
+    - What are techniques to manage anxiety?
+    - My anxiety is overwhelming
+- intent: coping_with_stress
+  examples: |
+    - I'm so stressed out
+    - How can I cope with stress?
+    - Everything is stressing me
+    - I need ways to handle stress
+    - Stress is taking over my life
+- intent: building_self_esteem
+  examples: |
+    - I have low self-esteem
+    - How can I improve my self-esteem?
+    - I don't feel good about myself
+    - What are ways to build confidence?
+    - I always feel inferior to others
+- intent: dealing_with_loneliness
+  examples: |
+    - I feel so lonely
+    - How can I deal with loneliness?
+    - I don't have any friends
+    - Is there a way to feel less lonely?
+    - I'm isolated and sad
+- intent: handling_mood_swings
+  examples: |
+    - My moods change so quickly
+    - I can't control my mood swings
+    - One moment I'm fine, then I'm not
+    - Why are my emotions so unpredictable?
+    - I'm struggling with sudden mood changes
+- intent: exploring_identity_issues
+  examples: |
+    - I'm not sure who I am
+    - I'm struggling with my identity
+    - How do I find out who I really am?
+    - I have issues with my self-identity
+    - I feel lost about my personal identity
+- intent: addressing_procrastination
+  examples: |
+    - I keep procrastinating
+    - How can I stop putting things off?
+    - I'm always delaying my work
+    - Why do I procrastinate so much?
+    - I can't get things done on time
+- intent: navigating_career_transitions
+  examples: |
+    - I'm thinking about changing my career
+    - How do I navigate a career transition?
+    - I'm not happy with my job and want to switch
+    - What should I consider when changing careers?
+    - Changing careers feels overwhelming
+- intent: overcoming_negativity
+  examples: |
+    - I always think negatively
+    - How can I stop negative thoughts?
+    - My mind is full of negative ideas
+    - I'm stuck in a cycle of negativity
+    - I can't see anything in a positive light
+- intent: dealing_with_frustration
+  examples: |
+    - I'm constantly frustrated
+    - How can I manage my frustration?
+    - Everything annoys me
+    - I can't seem to control my frustration
+    - I get frustrated over little things
+- intent: building_resilience
+  examples: |
+    - How can I become more resilient?
+    - I want to build resilience
+    - What are ways to develop resilience?
+    - I give up too easily
+    - I need to be stronger mentally
+- intent: improving_concentration
+  examples: |
+    - I can't concentrate on anything
+    - How can I improve my focus?
+    - My concentration is so poor
+    - What can help with concentration?
+    - I get distracted easily
+- intent: handling_guilt
+  examples: |
+    - I always feel guilty
+    - How can I deal with guilt?
+    - I'm burdened by guilt
+    - My guilt is overwhelming
+    - I can't let go of my guilt
+- intent: managing_burnout
+  examples: |
+    - I'm feeling burned out
+    - How can I overcome burnout?
+    - My work is causing burnout
+    - I have no energy because of burnout
+    - I'm exhausted all the time
+- intent: addressing_feelings_of_failure
+  examples: |
+    - I feel like a failure
+    - How can I stop feeling like a failure?
+    - I'm not successful in anything
+    - My life is a series of failures
+    - I'm disappointed in myself
+- intent: seeking_meaning_and_purpose
+  examples: |
+    - I'm searching for meaning in life
+    - What's my purpose?
+    - I don't know what my life is for
+    - How can I find my passion?
+    - Life feels meaningless
+- intent: overcoming_insecurity
+  examples: |
+    - I always feel insecure
+    - How can I be less insecure?
+    - I'm struggling with self-doubt
+    - My insecurities are holding me back
+    - I constantly compare myself to others
+- intent: dealing_with_jealousy
+  examples: |
+    - I'm often jealous of others
+    - How can I stop feeling jealous?
+    - Jealousy is ruining my relationships
+    - I feel envious all the time
+    - Why do I feel jealous even when I don't want to?
+- intent: handling_rejection
+  examples: |
+    - I can't handle rejection
+    - Every rejection feels like a failure
+    - How do I deal with being rejected?
+    - Rejection affects my self-esteem
+    - Why does rejection hurt so much?
+- intent: struggling_with_change
+  examples: |
+    - I'm afraid of change
+    - Change makes me anxious
+    - How can I adapt to change better?
+    - I feel overwhelmed by change
+    - I resist change even when I know it's good
+- intent: addressing_loneliness
+  examples: |
+    - I feel so alone
+    - No one understands me
+    - How can I cope with loneliness?
+    - I have no one to talk to
+    - I'm isolated from everyone
+- intent: managing_anger
+  examples: |
+    - I get angry so easily
+    - How can I control my anger?
+    - I lose my temper all the time
+    - I can't seem to manage my anger
+    - My anger is affecting my relationships
+- intent: overcoming_fear
+  examples: |
+    - I'm scared of everything
+    - How can I overcome my fears?
+    - I live in constant fear
+    - My fear is holding me back
+    - I'm always afraid of what might happen
+- intent: navigating_relationship_difficulties
+  examples: |
+    - I'm struggling in my relationship
+    - How can I improve my relationship?
+    - My partner and I always argue
+    - I'm unhappy in my relationship
+    - We can't seem to understand each other
+- intent: dealing_with_anxiety_attacks
+  examples: |
+    - I'm having an anxiety attack
+    - How do I handle a panic attack?
+    - My anxiety attacks are scary
+    - What should I do during an anxiety attack?
+    - I feel like I'm losing control during panic attacks
+- intent: managing_social_anxiety
+  examples: |
+    - I'm afraid of social situations
+    - How can I cope with social anxiety?
+    - I get anxious around people
+    - Social interactions make me nervous
+    - I avoid meeting new people because of anxiety
+- intent: understanding_emotions
+  examples: |
+    - I don't understand my feelings
+    - Why am I so emotional?
+    - I'm struggling to identify my emotions
+    - My emotions are confusing
+    - How can I make sense of what I'm feeling?
+- intent: coping_with_grief
+  examples: |
+    - I'm grieving and don't know how to cope
+    - How can I deal with the loss of a loved one?
+    - My grief is overwhelming
+    - I feel stuck in my grief
+    - Grief is affecting my daily life
+- intent: overcoming_hopelessness
+  examples: |
+    - I feel hopeless
+    - Nothing seems to get better
+    - How can I find hope again?
+    - My situation feels hopeless
+    - I've lost all hope for the future
+- intent: addressing_chronic_illness
+  examples: |
+    - Dealing with chronic illness is hard
+    - How can I cope with a chronic disease?
+    - My illness is affecting my mental health
+    - I'm struggling to live with chronic pain
+    - Chronic illness makes me feel depressed
+- intent: addressing_body_image_issues
+  examples: |
+    - I hate my body
+    - How can I improve my body image?
+    - I'm struggling with how I look
+    - My body image is affecting my self-esteem
+    - I feel ugly all the time
+- intent: dealing_with_obsessive_thoughts
+  examples: |
+    - I can't stop obsessing over things
+    - My thoughts are obsessive and intrusive
+    - How do I control obsessive thoughts?
+    - I'm plagued by constant obsessions
+    - Obsessive thinking is taking over my life
+- intent: navigating_life_transitions
+  examples: |
+    - I'm struggling with life changes
+    - How can I adapt to major life changes?
+    - Life transitions are overwhelming me
+    - I feel lost due to changes in my life
+    - Coping with life transitions is hard
+- intent: finding_motivation
+  examples: |
+    - I lack motivation for anything
+    - How can I find motivation in life?
+    - Nothing motivates me anymore
+    - I've lost all my drive and motivation
+    - How to get motivated when feeling down?
+- intent: handling_worry
+  examples: |
+    - I worry about everything
+    - How can I stop worrying so much?
+    - My mind is always filled with worries
+    - I can't seem to control my worry
+    - Constant worry is affecting my life
+- intent: developing_self_compassion
+  examples: |
+    - I'm too hard on myself
+    - How can I be more compassionate to myself?
+    - I always criticize myself
+    - I lack self-compassion
+    - How to stop self-criticism?
+- intent: farewells
+  examples: |
+    - Goodbye
+    - See you later
+    - Bye
+    - Talk to you later
+    - I have to go
+- intent: small_talk
+  examples: |
+    - How's it going?
+    - What's up?
+    - How are you?
+    - Nice weather today, isn't it?
+    - You're a chatbot, right?
+- intent: providing_information
+  examples: |
+    - Can you help me find information?
+    - I need some information
+    - Can you provide some details?
+    - I'm looking for information
+    - Where can I find this information?
+- intent: responding_to_thanks
+  examples: |
+    - Thank you
+    - Thanks
+    - Appreciate your help
+    - That was helpful
+    - Thanks for your assistance
+- intent: responding_to_apologies
+  examples: |
+    - Sorry
+    - My apologies
+    - I apologize
+    - Oops, sorry
+    - I didn't mean to do that
+- intent: asking_for_help
+  examples: |
+    - Can you help me?
+    - I need some assistance
+    - Could you assist me with something?
+    - I require some help
+    - Can you offer some support?
+- intent: expressing_confusion
+  examples: |
+    - I don't understand
+    - Can you explain that again?
+    - I'm confused
+    - That doesn't make sense to me
+    - Could you clarify?
+- intent: expressing_satisfaction
+  examples: |
+    - I'm happy with this
+    - This is exactly what I needed
+    - You've been very helpful
+    - This is great, thanks
+    - I'm satisfied with your help
+- intent: handling_complaints
+  examples: |
+    - I'm not happy with this
+    - This isn't what I wanted
+    - I have a complaint
+    - This is unsatisfactory
+    - I'm disappointed with the service
+- intent: making_suggestions
+  examples: |
+    - Do you have any recommendations?
+    - Can you suggest something?
+    - What do you think I should do?
+    - I need some suggestions
+    - Could you propose an idea?
+- intent: inquiring_about_services
+  examples: |
+    - What services do you offer?
+    - Can you list your services?
+    - What can you do?
+    - Tell me about your services
+    - What are your capabilities?
+- intent: seeking_opinions
+  examples: |
+    - What's your opinion on this?
+    - Can you give me your thoughts?
+    - What do you think about this?
+    - I'd like to hear your opinion
+    - What's your view on this matter?
+- intent: expressing_gratitude
+  examples: |
+    - That was very helpful, thank you
+    - Thanks for your help
+    - I appreciate your assistance
+    - You've been a great help
+    - Thank you for your support
+- intent: requesting_feedback
+  examples: |
+    - How am I doing?
+    - Could you give me some feedback?
+    - I'd like to know how I performed
+    - Can you assess my progress?
+    - What do you think about my performance?
+- intent: general_inquiries
+  examples: |
+    - What can you tell me about yourself?
+    - Tell me more about your features
+    - What are your functions?
+    - How can you assist me?
+    - What kind of chatbot are you?
+- intent: clarifying_questions
+  examples: |
+    - Can you explain that in more detail?
+    - I need more information on this
+    - Can you elaborate on that?
+    - Could you give me more specifics?
+    - I'm looking for more detailed information
+- intent: offering_assistance
+  examples: |
+    - I need help with a task
+    - Can you assist me in solving this?
+    - I require assistance with an issue
+    - Can you help me figure this out?
+    - I need support with a problem
+- intent: handling_user_frustration
+  examples: |
+    - This is frustrating
+    - I'm upset with this situation
+    - This isn't working for me
+    - I'm not happy with how this is going
+    - I'm annoyed right now
+- intent: expressing_empathy
+  examples: |
+    - I'm going through a tough time
+    - I'm feeling really down
+    - I'm having a bad day
+    - I'm stressed and overwhelmed
+    - I'm dealing with a lot right now
+- intent: inquiring_about_time
+  examples: |
+    - What time is it?
+    - Can you tell me the current time?
+    - I need to know the time
+    - Could you give me the time?
+    - Time check please
+- intent: responding_to_jokes
+  examples: |
+    - Tell me a joke
+    - Can you say something funny?
+    - I need to hear a joke
+    - Make me laugh
+    - Do you know any good jokes?
+- intent: providing_directions
+  examples: |
+    - Can you give me directions?
+    - How do I get to this place?
+    - I'm lost, can you help?
+    - I need help with navigation
+    - Show me the way to go
+- intent: handling_user_errors
+  examples: |
+    - I made a mistake
+    - That was the wrong input
+    - Oops, I didn't mean to do that
+    - I entered the wrong information
+    - My mistake, let me try again
+- intent: responding_to_user_excitement
+  examples: |
+    - I'm really excited about this
+    - This is so exciting
+    - I can't wait
+    - I'm thrilled about it
+    - This is such good news
+- intent: inquiring_about_daily_activities
+  examples: |
+    - What should I do today?
+    - I'm bored, any suggestions?
+    - Can you propose a daily activity?
+    - I need ideas for today
+    - What's a good thing to do right now?
+- intent: responding_to_user_curiosity
+  examples: |
+    - Tell me something interesting
+    - Do you know any fun facts?
+    - I want to hear something intriguing
+    - Share an interesting piece of information
+    - Can you tell me something I might not know?
+- intent: offering_comfort
+  examples: |
+    - I'm feeling sad
+    - Today has been hard
+    - I need some cheering up
+    - It's been a tough day
+    - I'm not in a good mood
+- intent: celebrating_success
+  examples: |
+    - I achieved my goal
+    - I got a promotion
+    - I just graduated
+    - I won a competition
+    - I finished a big project
+- intent: seeking_relationship_advice
+  examples: |
+    - I need advice on my relationship
+    - How can I improve my relationship?
+    - My relationship is struggling
+    - What should I do about my relationship issues?
+    - I'm having trouble with my partner
+- intent: building_strong_relationships
+  examples: |
+    - How can I build a strong relationship?
+    - What makes a relationship last?
+    - Tips for a healthy relationship
+    - I want to strengthen my relationship
+    - How to maintain a good relationship?
+- intent: dealing_with_breakups
+  examples: |
+    - How do I get over a breakup?
+    - I just had a breakup and feel lost
+    - Coping with the end of a relationship
+    - I'm struggling after my breakup
+    - What should I do post-breakup?
+- intent: navigating_long_distance_relationships
+  examples: |
+    - How to make a long-distance relationship work?
+    - Tips for long-distance relationships
+    - Managing a relationship from afar
+    - I'm in a long-distance relationship and need advice
+    - Keeping the spark alive in long-distance
+- intent: communicating_in_relationships
+  examples: |
+    - How can I communicate better with my partner?
+    - We have communication issues
+    - What's the key to effective communication in a relationship?
+    - I struggle to express my feelings
+    - How can we improve our communication?
+- intent: trust_issues_in_relationships
+  examples: |
+    - How do I deal with trust issues?
+    - I'm struggling with trusting my partner
+    - Building trust in a relationship
+    - My partner doesn't trust me
+    - We have a problem with trust
+- intent: resolving_conflicts
+  examples: |
+    - How can we resolve conflicts in our relationship?
+    - We argue a lot, what should we do?
+    - Tips for resolving arguments with my partner
+    - How to handle disagreements in a relationship
+    - We can't seem to get past our fights
+- intent: managing_relationship_expectations
+  examples: |
+    - What are realistic expectations in a relationship?
+    - I think my expectations might be too high
+    - How to set healthy relationship expectations
+    - We need to manage our expectations
+    - Are my relationship expectations reasonable?
+- intent: starting_new_relationships
+  examples: |
+    - How do I start a new relationship?
+    - I'm interested in someone, what should I do?
+    - Tips for beginning a relationship
+    - I want to ask someone out, any advice?
+    - Starting a romantic relationship
+- intent: relationship_boundaries
+  examples: |
+    - How do I set boundaries in my relationship?
+    - We need to establish clearer boundaries
+    - What are healthy relationship boundaries?
+    - Setting boundaries with my partner
+    - How to communicate my boundaries?
+- intent: relationship_anxiety
+  examples: |
+    - I feel anxious in my relationship
+    - Dealing with anxiety in a relationship
+    - My relationship makes me nervous
+    - How to handle relationship anxiety
+    - I'm always worried about my relationship
+- intent: navigating_relationship_conflicts
+  examples: |
+    - How to deal with conflicts in a relationship?
+    - We keep fighting, what should we do?
+    - Resolving conflicts with my partner
+    - Every small thing leads to an argument
+    - Strategies for conflict resolution in relationships
+- intent: rekindling_romance
+  examples: |
+    - How can we rekindle our romance?
+    - Our relationship feels stale, what can we do?
+    - I want to bring back the spark in our relationship
+    - Tips for reigniting romance
+    - Our relationship needs some excitement
+- intent: managing_distance_in_relationships
+  examples: |
+    - How to manage a long-distance relationship?
+    - My partner and I are going to be apart, any advice?
+    - Strategies for a successful long-distance relationship
+    - We're facing distance in our relationship, help
+    - Keeping a relationship strong across the distance
+- intent: dealing_with_insecurity_in_relationships
+  examples: |
+    - How do I deal with feeling insecure in my relationship?
+    - I'm feeling insecure with my partner
+    - My partner's behavior makes me feel insecure
+    - Ways to overcome insecurity in a relationship
+    - Dealing with jealousy and insecurity
+- intent: navigating_relationship_transitions
+  examples: |
+    - Transitioning from friends to a relationship
+    - How to handle changes in a relationship?
+    - Our relationship dynamic is changing
+    - Moving from dating to a serious relationship
+    - Adapting to a new phase in our relationship
+- intent: expressing_concern
+  examples: |
+    - I've been feeling really down lately
+    - I'm not feeling like myself
+    - I feel sad all the time
+    - Lately, I've been feeling unhappy
+    - I'm struggling with feeling low
+- intent: offering_support
+  examples: |
+    - I'm having a hard time coping
+    - Everything feels overwhelming
+    - I don't know how to deal with my stress
+    - I'm finding it hard to manage my emotions
+    - I'm overwhelmed and don't know what to do
+- intent: encouraging_self_care
+  examples: |
+    - I keep neglecting my own needs
+    - I don't have time for self-care
+    - I forget to take care of myself
+    - I'm too busy to look after my health
+    - I never prioritize my own wellbeing
+- intent: discussing_depression_symptoms
+  examples: |
+    - I think I might be depressed
+    - What are the signs of depression?
+    - I've been feeling really down for a long time
+    - How do I know if I'm depressed?
+    - I feel hopeless and have no energy
+- intent: addressing_stress_management
+  examples: |
+    - I'm under a lot of stress
+    - How can I manage stress better?
+    - My stress levels are too high
+    - I'm always stressed and anxious
+    - I need help with stress relief
+- intent: exploring_therapy_options
+  examples: |
+    - Should I consider therapy?
+    - What kind of therapy is right for me?
+    - How do I start therapy?
+    - I'm thinking about getting counseling
+    - What should I expect from therapy?
+- intent: managing_relationship_stress
+  examples: |
+    - My relationship is causing me stress
+    - How do I deal with relationship stress?
+    - I'm stressed because of my partner
+    - Relationship issues are affecting my mental health
+    - What can I do about stress in my relationship?
+- intent: encouraging_open_discussion
+  examples: |
+    - I don't know where to start
+    - It's hard for me to open up
+    - I'm not sure what to say
+    - Talking about my feelings is difficult
+    - I'm not used to discussing my problems
+- intent: validating_user_emotions
+  examples: |
+    - Sometimes I feel so overwhelmed
+    - I get angry over little things
+    - I feel sad but I don't know why
+    - Lately, I've been feeling anxious
+    - I'm not sure why I'm feeling this way
+- intent: guiding_through_difficulties
+  examples: |
+    - Everything just feels so hard right now
+    - I'm struggling with my mental health
+    - I don't know how to handle my current situation
+    - Life feels impossible to manage
+    - I'm at a loss with what to do next
+- intent: offering_comfort_and_reassurance
+  examples: |
+    - I'm just really scared about the future
+    - I feel so hopeless
+    - Nothing seems to make me happy anymore
+    - I'm worried all the time
+    - I feel like giving up
+- intent: providing_motivation
+  examples: |
+    - I'm finding it hard to stay motivated
+    - How can I keep myself motivated?
+    - I lose motivation too easily
+    - What can I do to stay focused?
+    - I need help with finding motivation
+- intent: coping_with_change
+  examples: |
+    - I'm struggling with changes in my life
+    - How can I adapt to big life changes?
+    - Change makes me feel anxious
+    - I find it hard to accept change
+    - Dealing with change is difficult for me
+- intent: dealing_with_loneliness
+  examples: |
+    - I often feel lonely
+    - What can I do about loneliness?
+    - I don't have many friends
+    - I feel isolated from others
+    - Dealing with loneliness is hard
+- intent: managing_emotional_overwhelm
+  examples: |
+    - I'm overwhelmed by my emotions
+    - How can I manage feeling so overwhelmed?
+    - Sometimes I just feel too much
+    - My emotions are too intense
+    - I can't handle all these feelings
+- intent: finding_motivation
+  examples: |
+    - I can't find motivation to do anything
+    - What can I do to get motivated?
+    - I've lost all my drive
+    - Nothing motivates me anymore
+    - How do I find inspiration?
+- intent: navigating_relationships
+  examples: |
+    - I'm having trouble in my relationship
+    - How can I improve my communication with my partner?
+    - My relationship is struggling
+    - I'm not sure if my relationship is healthy
+    - How do I know if it's time to end a relationship?
+- intent: parenting_challenges
+  examples: |
+    - Parenting is overwhelming me
+    - How can I be a better parent?
+    - I'm struggling with my kids
+    - My child's behavior is difficult to handle
+    - I feel like I'm failing as a parent
+- intent: balancing_work_life
+  examples: |
+    - I can't balance my work and life
+    - How do I manage work-life balance?
+    - My job is taking over my life
+    - I have no time for myself because of work
+    - Work-life balance seems impossible
+- intent: understanding_depression
+  examples: |
+    - What is depression?
+    - How do I know if I'm depressed?
+    - What are the signs of depression?
+    - Can you explain what depression feels like?
+    - Is my sadness depression?
+- intent: dealing_with_depression
+  examples: |
+    - How can I cope with depression?
+    - I'm struggling with depression, what should I do?
+    - Are there ways to overcome depression?
+    - What are effective treatments for depression?
+    - Can I manage depression on my own?
+- intent: supporting_depressed_individual
+  examples: |
+    - How can I help someone with depression?
+    - My friend is depressed, what can I do?
+    - How do I support a family member with depression?
+    - What should I say to someone who's depressed?
+    - I want to help my partner with depression
+- intent: lifestyle_changes_for_depression
+  examples: |
+    - What lifestyle changes can help with depression?
+    - Can exercise help with depression?
+    - Does diet affect depression?
+    - How important is sleep for depression?
+    - Can mindfulness help with depression?
+- intent: depression_and_relationships
+  examples: |
+    - Is my depression affecting my relationships?
+    - How to maintain relationships when depressed?
+    - Can depression make me push people away?
+    - I feel like my depression is burdening my family
+    - How to explain my depression to my partner?
+- intent: depression_and_self_care
+  examples: |
+    - How should I take care of myself when depressed?
+    - What are self-care activities for depression?
+    - I find it hard to look after myself, what can I do?
+    - Self-care seems impossible when I'm depressed
+    - Any tips for self-care during depression?
+- intent: depression_recovery_journey
+  examples: |
+    - What does recovery from depression look like?
+    - How long does it take to recover from depression?
+    - Is it possible to fully recover from depression?
+    - My recovery from depression is slow, is this normal?
+    - What are the stages of recovering from depression?
+- intent: depression_and_work
+  examples: |
+    - How to cope with depression at work?
+    - Should I tell my employer about my depression?
+    - Depression is affecting my job performance
+    - I find it hard to concentrate at work due to depression
+    - Can I take leave for depression?
+- intent: depression_symptom_management
+  examples: |
+    - How do I manage the symptoms of depression?
+    - What can I do about my lack of energy?
+    - I'm always feeling tired, is this because of depression?
+    - How to handle loss of appetite due to depression?
+    - Depression is affecting my sleep, what should I do?
+- intent: depression_and_social_life
+  examples: |
+    - Should I socialize more to combat depression?
+    - Depression makes me want to isolate, what can I do?
+    - I don't feel like seeing anyone, is this normal?
+    - How to maintain friendships while depressed?
+    - Can socializing help with my depression?
+- intent: depression_and_identity
+  examples: |
+    - I feel like I've lost my identity to depression
+    - Depression makes me feel like I'm not myself
+    - How do I find myself again after depression?
+    - I don't know who I am outside of my depression
+    - Can I regain my sense of self in depression?
+- intent: depression_and_daily_routine
+  examples: |
+    - How to maintain a routine when depressed?
+    - Depression makes it hard to follow a schedule
+    - Any tips for daily routines to help with depression?
+    - I struggle with everyday tasks due to depression
+    - Setting a routine seems impossible with depression
+- intent: acknowledging_self_rejection
+  examples: |
+    - I don't like myself
+    - I always put myself down
+    - I feel worthless
+    - Why can't I accept myself?
+    - I'm always criticizing myself
+
+- intent: overcoming_self_rejection
+  examples: |
+    - How can I stop hating myself?
+    - What can I do to accept myself?
+    - I want to be kinder to myself
+    - Steps to self-acceptance
+    - I need to stop being so hard on myself
+- intent: coping_with_self_rejection
+  examples: |
+    - I always feel inadequate
+    - Why do I dislike myself so much?
+    - I struggle with low self-esteem
+    - I can never meet my own expectations
+    - I feel like I'm never good enough
+- intent: urgent_support_for_suicidal_thoughts
+  examples: |
+    - I'm on the verge of killing myself
+    - I have a plan to end my life
+    - I can't stop thinking about suicide
+    - I'm about to commit suicide
+    - I'm close to ending everything
+- intent: post_suicidal_thoughts_support
+  examples: |
+    - I've been thinking about suicide but I want help
+    - I don't want to feel suicidal anymore
+    - I need help with my suicidal thoughts
+    - I'm trying to overcome my desire to die
+    - I want to die
+    - i feel like killing myself
+    - I want to kill myself
+    - I want to die
+    - I want to stop thinking about killing myself

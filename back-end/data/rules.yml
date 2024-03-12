@@ -1,0 +1,646 @@
+version: "3.1"
+rules:
+- rule: respond to greeting
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+- rule: respond to goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: respond to thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+- rule: respond to help
+  steps:
+  - intent: help
+  - action: utter_help
+- rule: respond to symptoms
+  steps:
+  - intent: symptoms
+  - action: utter_symptoms
+- rule: respond to therapy
+  steps:
+  - intent: therapy
+  - action: utter_therapy
+- rule: respond to medication
+  steps:
+  - intent: medication
+  - action: utter_medication
+- rule: respond to self_care
+  steps:
+  - intent: self_care
+  - action: utter_self_care
+- rule: respond to crisis
+  steps:
+  - intent: crisis
+  - action: utter_crisis
+- rule: respond to fallback
+  steps:
+  - intent: fallback
+  - action: utter_fallback
+- rule: respond to general_inquiry
+  steps:
+  - intent: general_inquiry
+  - action: utter_general_inquiry
+- rule: respond to health_anxiety
+  steps:
+  - intent: health_anxiety
+  - action: utter_health_anxiety
+- rule: respond to grief_and_loss
+  steps:
+  - intent: grief_and_loss
+  - action: utter_grief_and_loss
+- rule: respond to sleep_issues
+  steps:
+  - intent: sleep_issues
+  - action: utter_sleep_issues
+- rule: respond to personal_growth
+  steps:
+  - intent: personal_growth
+  - action: utter_personal_growth
+- rule: respond to managing_emotions
+  steps:
+  - intent: managing_emotions
+  - action: utter_managing_emotions
+- rule: respond to social_anxiety
+  steps:
+  - intent: social_anxiety
+  - action: utter_social_anxiety
+- rule: respond to substance_use
+  steps:
+  - intent: substance_use
+  - action: utter_substance_use
+- rule: respond to eating_disorders
+  steps:
+  - intent: eating_disorders
+  - action: utter_eating_disorders
+- rule: respond to stress_management
+  steps:
+  - intent: stress_management
+  - action: utter_stress_management
+- rule: respond to body_image_issues
+  steps:
+  - intent: body_image_issues
+  - action: utter_body_image_issues
+- rule: respond to academic_anxiety
+  steps:
+  - intent: academic_anxiety
+  - action: utter_academic_anxiety
+- rule: respond to positive_thinking
+  steps:
+  - intent: positive_thinking
+  - action: utter_positive_thinking
+- rule: respond to loneliness
+  steps:
+  - intent: loneliness
+  - action: utter_loneliness
+- rule: respond to motivation
+  steps:
+  - intent: motivation
+  - action: utter_motivation
+- rule: respond to anger_management
+  steps:
+  - intent: anger_management
+  - action: utter_anger_management
+- rule: respond to referral_to_professional
+  steps:
+  - intent: referral_to_professional
+  - action: utter_referral_to_professional
+- rule: respond to coping_strategies
+  steps:
+  - intent: coping_strategies
+  - action: utter_coping_strategies
+- rule: respond to emotional_support
+  steps:
+  - intent: emotional_support
+  - action: utter_emotional_support
+- rule: respond to self_help_recommendations
+  steps:
+  - intent: self_help_recommendations
+  - action: utter_self_help_recommendations
+- rule: respond to general_advice
+  steps:
+  - intent: general_advice
+  - action: utter_general_advice
+- rule: respond to miscellaneous_queries
+  steps:
+  - intent: miscellaneous_queries
+  - action: utter_miscellaneous_queries
+- rule: respond to encouragement
+  steps:
+  - intent: encouragement
+  - action: utter_encouragement
+- rule: respond to relationship_advice
+  steps:
+  - intent: relationship_advice
+  - action: utter_relationship_advice
+- rule: respond to workplace_stress
+  steps:
+  - intent: workplace_stress
+  - action: utter_workplace_stress
+- rule: respond to self_esteem_issues
+  steps:
+  - intent: self_esteem_issues
+  - action: utter_self_esteem_issues
+- rule: respond to anxiety_management
+  steps:
+  - intent: anxiety_management
+  - action: utter_anxiety_management
+- rule: respond to what is depression?
+  steps:
+  - intent: what is depression?
+  - action: utter_what is depression?
+- rule: respond to dealing_with_change
+  steps:
+  - intent: dealing_with_change
+  - action: utter_dealing_with_change
+- rule: respond to existential_questions
+  steps:
+  - intent: existential_questions
+  - action: utter_existential_questions
+- rule: respond to seeking_comfort
+  steps:
+  - intent: seeking_comfort
+  - action: utter_seeking_comfort
+- rule: respond to seeking_information
+  steps:
+  - intent: seeking_information
+  - action: utter_seeking_information
+- rule: respond to self_acceptance
+  steps:
+  - intent: self_acceptance
+  - action: utter_self_acceptance
+- rule: respond to relationship_issues
+  steps:
+  - intent: relationship_issues
+  - action: utter_relationship_issues
+- rule: respond to coping_with_loss
+  steps:
+  - intent: coping_with_loss
+  - action: utter_coping_with_loss
+- rule: respond to career_guidance
+  steps:
+  - intent: career_guidance
+  - action: utter_career_guidance
+- rule: respond to managing_fear
+  steps:
+  - intent: managing_fear
+  - action: utter_managing_fear
+- rule: respond to managing_anxiety
+  steps:
+  - intent: managing_anxiety
+  - action: utter_managing_anxiety
+- rule: respond to coping_with_stress
+  steps:
+  - intent: coping_with_stress
+  - action: utter_coping_with_stress
+- rule: respond to building_self_esteem
+  steps:
+  - intent: building_self_esteem
+  - action: utter_building_self_esteem
+- rule: respond to dealing_with_loneliness
+  steps:
+  - intent: dealing_with_loneliness
+  - action: utter_dealing_with_loneliness
+- rule: respond to handling_mood_swings
+  steps:
+  - intent: handling_mood_swings
+  - action: utter_handling_mood_swings
+- rule: respond to exploring_identity_issues
+  steps:
+  - intent: exploring_identity_issues
+  - action: utter_exploring_identity_issues
+- rule: respond to addressing_procrastination
+  steps:
+  - intent: addressing_procrastination
+  - action: utter_addressing_procrastination
+- rule: respond to navigating_career_transitions
+  steps:
+  - intent: navigating_career_transitions
+  - action: utter_navigating_career_transitions
+- rule: respond to overcoming_negativity
+  steps:
+  - intent: overcoming_negativity
+  - action: utter_overcoming_negativity
+- rule: respond to dealing_with_frustration
+  steps:
+  - intent: dealing_with_frustration
+  - action: utter_dealing_with_frustration
+- rule: respond to building_resilience
+  steps:
+  - intent: building_resilience
+  - action: utter_building_resilience
+- rule: respond to improving_concentration
+  steps:
+  - intent: improving_concentration
+  - action: utter_improving_concentration
+- rule: respond to handling_guilt
+  steps:
+  - intent: handling_guilt
+  - action: utter_handling_guilt
+- rule: respond to managing_burnout
+  steps:
+  - intent: managing_burnout
+  - action: utter_managing_burnout
+- rule: respond to addressing_feelings_of_failure
+  steps:
+  - intent: addressing_feelings_of_failure
+  - action: utter_addressing_feelings_of_failure
+- rule: respond to seeking_meaning_and_purpose
+  steps:
+  - intent: seeking_meaning_and_purpose
+  - action: utter_seeking_meaning_and_purpose
+- rule: respond to overcoming_insecurity
+  steps:
+  - intent: overcoming_insecurity
+  - action: utter_overcoming_insecurity
+- rule: respond to dealing_with_jealousy
+  steps:
+  - intent: dealing_with_jealousy
+  - action: utter_dealing_with_jealousy
+- rule: respond to handling_rejection
+  steps:
+  - intent: handling_rejection
+  - action: utter_handling_rejection
+- rule: respond to struggling_with_change
+  steps:
+  - intent: struggling_with_change
+  - action: utter_struggling_with_change
+- rule: respond to addressing_loneliness
+  steps:
+  - intent: addressing_loneliness
+  - action: utter_addressing_loneliness
+- rule: respond to managing_anger
+  steps:
+  - intent: managing_anger
+  - action: utter_managing_anger
+- rule: respond to overcoming_fear
+  steps:
+  - intent: overcoming_fear
+  - action: utter_overcoming_fear
+- rule: respond to navigating_relationship_difficulties
+  steps:
+  - intent: navigating_relationship_difficulties
+  - action: utter_navigating_relationship_difficulties
+- rule: respond to dealing_with_anxiety_attacks
+  steps:
+  - intent: dealing_with_anxiety_attacks
+  - action: utter_dealing_with_anxiety_attacks
+- rule: respond to managing_social_anxiety
+  steps:
+  - intent: managing_social_anxiety
+  - action: utter_managing_social_anxiety
+- rule: respond to understanding_emotions
+  steps:
+  - intent: understanding_emotions
+  - action: utter_understanding_emotions
+- rule: respond to coping_with_grief
+  steps:
+  - intent: coping_with_grief
+  - action: utter_coping_with_grief
+- rule: respond to overcoming_hopelessness
+  steps:
+  - intent: overcoming_hopelessness
+  - action: utter_overcoming_hopelessness
+- rule: respond to addressing_chronic_illness
+  steps:
+  - intent: addressing_chronic_illness
+  - action: utter_addressing_chronic_illness
+- rule: respond to addressing_body_image_issues
+  steps:
+  - intent: addressing_body_image_issues
+  - action: utter_addressing_body_image_issues
+- rule: respond to dealing_with_obsessive_thoughts
+  steps:
+  - intent: dealing_with_obsessive_thoughts
+  - action: utter_dealing_with_obsessive_thoughts
+- rule: respond to navigating_life_transitions
+  steps:
+  - intent: navigating_life_transitions
+  - action: utter_navigating_life_transitions
+- rule: respond to finding_motivation
+  steps:
+  - intent: finding_motivation
+  - action: utter_finding_motivation
+- rule: respond to handling_worry
+  steps:
+  - intent: handling_worry
+  - action: utter_handling_worry
+- rule: respond to developing_self_compassion
+  steps:
+  - intent: developing_self_compassion
+  - action: utter_developing_self_compassion
+- rule: respond to farewells
+  steps:
+  - intent: farewells
+  - action: utter_farewells
+- rule: respond to small_talk
+  steps:
+  - intent: small_talk
+  - action: utter_small_talk
+- rule: respond to providing_information
+  steps:
+  - intent: providing_information
+  - action: utter_providing_information
+- rule: respond to responding_to_thanks
+  steps:
+  - intent: responding_to_thanks
+  - action: utter_responding_to_thanks
+- rule: respond to responding_to_apologies
+  steps:
+  - intent: responding_to_apologies
+  - action: utter_responding_to_apologies
+- rule: respond to asking_for_help
+  steps:
+  - intent: asking_for_help
+  - action: utter_asking_for_help
+- rule: respond to expressing_confusion
+  steps:
+  - intent: expressing_confusion
+  - action: utter_expressing_confusion
+- rule: respond to expressing_satisfaction
+  steps:
+  - intent: expressing_satisfaction
+  - action: utter_expressing_satisfaction
+- rule: respond to handling_complaints
+  steps:
+  - intent: handling_complaints
+  - action: utter_handling_complaints
+- rule: respond to making_suggestions
+  steps:
+  - intent: making_suggestions
+  - action: utter_making_suggestions
+- rule: respond to inquiring_about_services
+  steps:
+  - intent: inquiring_about_services
+  - action: utter_inquiring_about_services
+- rule: respond to seeking_opinions
+  steps:
+  - intent: seeking_opinions
+  - action: utter_seeking_opinions
+- rule: respond to expressing_gratitude
+  steps:
+  - intent: expressing_gratitude
+  - action: utter_expressing_gratitude
+- rule: respond to requesting_feedback
+  steps:
+  - intent: requesting_feedback
+  - action: utter_requesting_feedback
+- rule: respond to general_inquiries
+  steps:
+  - intent: general_inquiries
+  - action: utter_general_inquiries
+- rule: respond to clarifying_questions
+  steps:
+  - intent: clarifying_questions
+  - action: utter_clarifying_questions
+- rule: respond to offering_assistance
+  steps:
+  - intent: offering_assistance
+  - action: utter_offering_assistance
+- rule: respond to handling_user_frustration
+  steps:
+  - intent: handling_user_frustration
+  - action: utter_handling_user_frustration
+- rule: respond to expressing_empathy
+  steps:
+  - intent: expressing_empathy
+  - action: utter_expressing_empathy
+- rule: respond to inquiring_about_time
+  steps:
+  - intent: inquiring_about_time
+  - action: utter_inquiring_about_time
+- rule: respond to responding_to_jokes
+  steps:
+  - intent: responding_to_jokes
+  - action: utter_responding_to_jokes
+- rule: respond to providing_directions
+  steps:
+  - intent: providing_directions
+  - action: utter_providing_directions
+- rule: respond to handling_user_errors
+  steps:
+  - intent: handling_user_errors
+  - action: utter_handling_user_errors
+- rule: respond to responding_to_user_excitement
+  steps:
+  - intent: responding_to_user_excitement
+  - action: utter_responding_to_user_excitement
+- rule: respond to inquiring_about_daily_activities
+  steps:
+  - intent: inquiring_about_daily_activities
+  - action: utter_inquiring_about_daily_activities
+- rule: respond to responding_to_user_curiosity
+  steps:
+  - intent: responding_to_user_curiosity
+  - action: utter_responding_to_user_curiosity
+- rule: respond to offering_comfort
+  steps:
+  - intent: offering_comfort
+  - action: utter_offering_comfort
+- rule: respond to celebrating_success
+  steps:
+  - intent: celebrating_success
+  - action: utter_celebrating_success
+- rule: respond to seeking_relationship_advice
+  steps:
+  - intent: seeking_relationship_advice
+  - action: utter_seeking_relationship_advice
+- rule: respond to building_strong_relationships
+  steps:
+  - intent: building_strong_relationships
+  - action: utter_building_strong_relationships
+- rule: respond to dealing_with_breakups
+  steps:
+  - intent: dealing_with_breakups
+  - action: utter_dealing_with_breakups
+- rule: respond to navigating_long_distance_relationships
+  steps:
+  - intent: navigating_long_distance_relationships
+  - action: utter_navigating_long_distance_relationships
+- rule: respond to communicating_in_relationships
+  steps:
+  - intent: communicating_in_relationships
+  - action: utter_communicating_in_relationships
+- rule: respond to trust_issues_in_relationships
+  steps:
+  - intent: trust_issues_in_relationships
+  - action: utter_trust_issues_in_relationships
+- rule: respond to resolving_conflicts
+  steps:
+  - intent: resolving_conflicts
+  - action: utter_resolving_conflicts
+- rule: respond to managing_relationship_expectations
+  steps:
+  - intent: managing_relationship_expectations
+  - action: utter_managing_relationship_expectations
+- rule: respond to starting_new_relationships
+  steps:
+  - intent: starting_new_relationships
+  - action: utter_starting_new_relationships
+- rule: respond to relationship_boundaries
+  steps:
+  - intent: relationship_boundaries
+  - action: utter_relationship_boundaries
+- rule: respond to relationship_anxiety
+  steps:
+  - intent: relationship_anxiety
+  - action: utter_relationship_anxiety
+- rule: respond to navigating_relationship_conflicts
+  steps:
+  - intent: navigating_relationship_conflicts
+  - action: utter_navigating_relationship_conflicts
+- rule: respond to rekindling_romance
+  steps:
+  - intent: rekindling_romance
+  - action: utter_rekindling_romance
+- rule: respond to managing_distance_in_relationships
+  steps:
+  - intent: managing_distance_in_relationships
+  - action: utter_managing_distance_in_relationships
+- rule: respond to dealing_with_insecurity_in_relationships
+  steps:
+  - intent: dealing_with_insecurity_in_relationships
+  - action: utter_dealing_with_insecurity_in_relationships
+- rule: respond to navigating_relationship_transitions
+  steps:
+  - intent: navigating_relationship_transitions
+  - action: utter_navigating_relationship_transitions
+- rule: respond to expressing_concern
+  steps:
+  - intent: expressing_concern
+  - action: utter_expressing_concern
+- rule: respond to offering_support
+  steps:
+  - intent: offering_support
+  - action: utter_offering_support
+- rule: respond to encouraging_self_care
+  steps:
+  - intent: encouraging_self_care
+  - action: utter_encouraging_self_care
+- rule: respond to discussing_depression_symptoms
+  steps:
+  - intent: discussing_depression_symptoms
+  - action: utter_discussing_depression_symptoms
+- rule: respond to addressing_stress_management
+  steps:
+  - intent: addressing_stress_management
+  - action: utter_addressing_stress_management
+- rule: respond to exploring_therapy_options
+  steps:
+  - intent: exploring_therapy_options
+  - action: utter_exploring_therapy_options
+- rule: respond to managing_relationship_stress
+  steps:
+  - intent: managing_relationship_stress
+  - action: utter_managing_relationship_stress
+- rule: respond to encouraging_open_discussion
+  steps:
+  - intent: encouraging_open_discussion
+  - action: utter_encouraging_open_discussion
+- rule: respond to validating_user_emotions
+  steps:
+  - intent: validating_user_emotions
+  - action: utter_validating_user_emotions
+- rule: respond to guiding_through_difficulties
+  steps:
+  - intent: guiding_through_difficulties
+  - action: utter_guiding_through_difficulties
+- rule: respond to offering_comfort_and_reassurance
+  steps:
+  - intent: offering_comfort_and_reassurance
+  - action: utter_offering_comfort_and_reassurance
+- rule: respond to providing_motivation
+  steps:
+  - intent: providing_motivation
+  - action: utter_providing_motivation
+- rule: respond to coping_with_change
+  steps:
+  - intent: coping_with_change
+  - action: utter_coping_with_change
+- rule: respond to managing_emotional_overwhelm
+  steps:
+  - intent: managing_emotional_overwhelm
+  - action: utter_managing_emotional_overwhelm
+- rule: respond to navigating_relationships
+  steps:
+  - intent: navigating_relationships
+  - action: utter_navigating_relationships
+- rule: respond to parenting_challenges
+  steps:
+  - intent: parenting_challenges
+  - action: utter_parenting_challenges
+- rule: respond to balancing_work_life
+  steps:
+  - intent: balancing_work_life
+  - action: utter_balancing_work_life
+- rule: respond to understanding_depression
+  steps:
+  - intent: understanding_depression
+  - action: utter_understanding_depression
+- rule: respond to dealing_with_depression
+  steps:
+  - intent: dealing_with_depression
+  - action: utter_dealing_with_depression
+- rule: respond to supporting_depressed_individual
+  steps:
+  - intent: supporting_depressed_individual
+  - action: utter_supporting_depressed_individual
+- rule: respond to lifestyle_changes_for_depression
+  steps:
+  - intent: lifestyle_changes_for_depression
+  - action: utter_lifestyle_changes_for_depression
+- rule: respond to depression_and_relationships
+  steps:
+  - intent: depression_and_relationships
+  - action: utter_depression_and_relationships
+- rule: respond to depression_and_self_care
+  steps:
+  - intent: depression_and_self_care
+  - action: utter_depression_and_self_care
+- rule: respond to depression_recovery_journey
+  steps:
+  - intent: depression_recovery_journey
+  - action: utter_depression_recovery_journey
+- rule: respond to depression_and_work
+  steps:
+  - intent: depression_and_work
+  - action: utter_depression_and_work
+- rule: respond to depression_symptom_management
+  steps:
+  - intent: depression_symptom_management
+  - action: utter_depression_symptom_management
+- rule: respond to depression_and_social_life
+  steps:
+  - intent: depression_and_social_life
+  - action: utter_depression_and_social_life
+- rule: respond to depression_and_identity
+  steps:
+  - intent: depression_and_identity
+  - action: utter_depression_and_identity
+- rule: respond to depression_and_daily_routine
+  steps:
+  - intent: depression_and_daily_routine
+  - action: utter_depression_and_daily_routine
+- rule: respond to acknowledging_self_rejection
+  steps:
+  - intent: acknowledging_self_rejection
+  - action: utter_acknowledging_self_rejection
+- rule: respond to overcoming_self_rejection
+  steps:
+  - intent: overcoming_self_rejection
+  - action: utter_overcoming_self_rejection
+- rule: respond to coping_with_self_rejection
+  steps:
+  - intent: coping_with_self_rejection
+  - action: utter_coping_with_self_rejection
+- rule: respond to urgent_support_for_suicidal_thoughts
+  steps:
+  - intent: urgent_support_for_suicidal_thoughts
+  - action: utter_urgent_support_for_suicidal_thoughts
+- rule: respond to post_suicidal_thoughts_support
+  steps:
+  - intent: post_suicidal_thoughts_support
+  - action: utter_post_suicidal_thoughts_support
