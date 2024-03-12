@@ -1,0 +1,1113 @@
+version: "3.1"
+intents:
+  - greeting
+  - thanks
+  - help
+  - symptoms
+  - therapy
+  - medication
+  - self_care
+  - crisis
+  - fallback
+  - checking_in
+  - general_inquiry
+  - health_anxiety
+  - grief_and_loss
+  - sleep_issues
+  - personal_growth
+  - managing_emotions
+  - goodbye
+  - social_anxiety
+  - substance_use
+  - eating_disorders
+  - stress_management
+  - body_image_issues
+  - academic_anxiety
+  - positive_thinking
+  - loneliness
+  - motivation
+  - anger_management
+  - referral_to_professional
+  - coping_strategies
+  - emotional_support
+  - self_help_recommendations
+  - general_advice
+  - miscellaneous_queries
+  - encouragement
+  - relationship_advice
+  - workplace_stress
+  - self_esteem_issues
+  - anxiety_management
+  - what is depression?
+  - dealing_with_change
+  - existential_questions
+  - seeking_comfort
+  - seeking_information
+  - self_acceptance
+  - relationship_issues
+  - coping_with_loss
+  - career_guidance
+  - managing_fear
+  - managing_anxiety
+  - coping_with_stress
+  - building_self_esteem
+  - dealing_with_loneliness
+  - handling_mood_swings
+  - exploring_identity_issues
+  - addressing_procrastination
+  - navigating_career_transitions
+  - overcoming_negativity
+  - dealing_with_frustration
+  - building_resilience
+  - improving_concentration
+  - handling_guilt
+  - managing_burnout
+  - addressing_feelings_of_failure
+  - seeking_meaning_and_purpose
+  - overcoming_insecurity
+  - dealing_with_jealousy
+  - handling_rejection
+  - struggling_with_change
+  - addressing_loneliness
+  - managing_anger
+  - overcoming_fear
+  - navigating_relationship_difficulties
+  - dealing_with_anxiety_attacks
+  - managing_social_anxiety
+  - understanding_emotions
+  - coping_with_grief
+  - overcoming_hopelessness
+  - addressing_chronic_illness
+  - addressing_body_image_issues
+  - dealing_with_obsessive_thoughts
+  - navigating_life_transitions
+  - finding_motivation
+  - handling_worry
+  - developing_self_compassion
+  - farewells
+  - small_talk
+  - providing_information
+  - responding_to_thanks
+  - responding_to_apologies
+  - asking_for_help
+  - expressing_confusion
+  - expressing_satisfaction
+  - handling_complaints
+  - making_suggestions
+  - inquiring_about_services
+  - seeking_opinions
+  - expressing_gratitude
+  - requesting_feedback
+  - general_inquiries
+  - clarifying_questions
+  - offering_assistance
+  - handling_user_frustration
+  - expressing_empathy
+  - inquiring_about_time
+  - responding_to_jokes
+  - providing_directions
+  - handling_user_errors
+  - responding_to_user_excitement
+  - inquiring_about_daily_activities
+  - responding_to_user_curiosity
+  - offering_comfort
+  - celebrating_success
+  - seeking_relationship_advice
+  - building_strong_relationships
+  - dealing_with_breakups
+  - navigating_long_distance_relationships
+  - communicating_in_relationships
+  - trust_issues_in_relationships
+  - resolving_conflicts
+  - managing_relationship_expectations
+  - starting_new_relationships
+  - relationship_boundaries
+  - relationship_anxiety
+  - navigating_relationship_conflicts
+  - rekindling_romance
+  - managing_distance_in_relationships
+  - dealing_with_insecurity_in_relationships
+  - navigating_relationship_transitions
+  - expressing_concern
+  - offering_support
+  - encouraging_self_care
+  - discussing_depression_symptoms
+  - addressing_stress_management
+  - exploring_therapy_options
+  - managing_relationship_stress
+  - encouraging_open_discussion
+  - validating_user_emotions
+  - guiding_through_difficulties
+  - offering_comfort_and_reassurance
+  - providing_motivation
+  - coping_with_change
+  - managing_emotional_overwhelm
+  - navigating_relationships
+  - parenting_challenges
+  - balancing_work_life
+  - understanding_depression
+  - dealing_with_depression
+  - supporting_depressed_individual
+  - lifestyle_changes_for_depression
+  - depression_and_relationships
+  - depression_and_self_care
+  - depression_recovery_journey
+  - depression_and_work
+  - depression_symptom_management
+  - depression_and_social_life
+  - depression_and_identity
+  - depression_and_daily_routine
+  - acknowledging_self_rejection
+  - overcoming_self_rejection
+  - coping_with_self_rejection
+  - expressing_suicidal_thoughts
+  - urgent_support_for_suicidal_thoughts
+  - post_suicidal_thoughts_support
+
+
+responses:
+  utter_greeting:
+  - text: "Hello! How can I assist you today?"
+  - text: "Hi there! How can I help you?"
+  - text: "Hey :-)"
+  - text: "Hello, thanks for visiting"
+  - text: "Hi there, what can I do for you?"
+  - text: "Hi there, how can I help?"
+  utter_goodbye:
+  - text: "Goodbye! Take care."
+  - text: "See you later. Remember, I'm here if you need me."
+  - text: "See you later, thanks for visiting"
+  - text: "Have a nice day"
+  - text: "Bye! Come back again soon."
+  - text: "Goodbye! Take care and don't hesitate to return if you need to talk."
+  - text: "Bye! Remember, I'm here if you need support."
+  utter_thanks:
+  - text: "You're welcome!"
+  - text: "Glad I could assist."
+  - text: "Anytime!"
+  - text: "Happy to help!"
+  - text: "Any time!"
+  - text: "My pleasure"
+  utter_help:
+  - text: "I can provide support and information on various mental health topics. Feel free to ask me anything."
+  utter_symptoms:
+  - text: "Common symptoms of anxiety include excessive worrying, restlessness, and difficulty concentrating. Symptoms of depression may include persistent sadness, loss of interest in activities, and changes in sleep or appetite. PTSD symptoms often include flashbacks, nightmares, and severe anxiety."
+  utter_therapy:
+  - text: "Therapy, also known as counseling or psychotherapy, involves talking with a trained mental health professional to gain insight into and resolve personal problems. There are various types of therapy, including cognitive-behavioral therapy (CBT), psychodynamic therapy, and interpersonal therapy. Therapy works by providing a supportive and nonjudgmental environment for individuals to explore their thoughts, feelings, and behaviors."
+  utter_medication:
+  - text: "Antidepressants are medications commonly used to treat depression and anxiety disorders. They work by balancing chemicals in the brain called neurotransmitters, which play a role in mood regulation. Other psychiatric medications may target different neurotransmitters or brain chemicals to alleviate symptoms of various mental health conditions."
+  utter_self_care:
+  - text: "Self-care is essential for maintaining good mental health. Some self-care practices include getting enough sleep, eating nutritious foods, exercising regularly, practicing relaxation techniques such as deep breathing or meditation, spending time with loved ones, and engaging in activities you enjoy."
+  utter_crisis:
+  - text: "If you're in crisis or experiencing suicidal thoughts, please seek immediate help. You can call emergency services or a crisis hotline for support. Remember, you're not alone, and help is available."
+  - text: "It's important you speak with someone who can help right away. Would you like me to find emergency contact information for you?"
+  - text: "I'm really concerned about what you're saying. It's important to talk to a professional immediately."
+  - text: "Your life is valuable, and there are people who can help. Let's find someone you can talk to right now."
+  utter_fallback:
+  - text: "I'm sorry, I'm not sure I understand. Could you please rephrase or try asking in a different way?"
+  - text: "Taking better care of yourself starts with recognizing your worth and understanding your needs. Even small acts of self-care are valuable."
+  - text: "Self-care ideas include things like reading a book, taking a walk, practicing mindfulness, or enjoying a hobby."
+  - text: "Not having time for yourself can be challenging. It's important to schedule 'me time' just like any other important activity."
+  - text: "Neglecting your own needs can lead to burnout. Remember, it's okay to prioritize your wellbeing and say no to excessive demands."
+  - text: "Self-care strategies include setting boundaries, spending time doing things you enjoy, and ensuring you get enough rest and healthy food."
+  utter_checking_in:
+  - text: "I'm here and ready to assist you. How about you? How can I help today?"
+  - text: "I'm doing well, thank you! How can I assist you right now?"
+  - text: "Not much is up with me, I'm a chatbot! But I'm here for you. What's going on in your world?"
+  - text: "I've been here, waiting to help out. How have you been feeling lately?"
+  - text: "Nothing much is new with me, but I'm interested in hearing about you. What brings you here today?"
+  utter_general_inquiry:
+  - text: "I'm here to help. What's on your mind?"
+  - text: "I can certainly try. What's bothering you?"
+  - text: "Talking about your feelings can be a good start. What's making you feel this way?"
+  utter_health_anxiety:
+  - text: "Health concerns can be stressful, but excessive worrying can affect your wellbeing. Have you discussed these concerns with a healthcare professional?"
+  - text: "It's natural to worry about health, but if it's causing significant stress, it might be helpful to speak to a counselor about these fears."
+  - text: "Constant worry about illness can be a sign of health anxiety. Seeking support from a mental health professional could be beneficial."
+  - text: "Obsessing over symptoms can be exhausting. It's important to get a professional opinion and then try to focus on things within your control."
+  - text: "Focusing too much on minor symptoms can be overwhelming. It might help to limit health-related searches online and seek a professional opinion."
+  utter_grief_and_loss:
+  - text: "Losing someone close is incredibly hard. It's okay to feel sad, and it's important to allow yourself time to grieve."
+  - text: "Dealing with the death of a loved one is a personal process and takes time. Remember, it's okay to seek support from friends, family, or a counselor."
+  - text: "Grief can be overwhelming. It might help to share your feelings with someone who understands or join a support group."
+  - text: "Moving on after a loss doesn't mean forgetting. It's about finding ways to remember them while continuing to live your life."
+  - text: "Persistent sadness after losing someone is a normal part of grieving. If these feelings are too much to handle, consider professional support."
+  utter_sleep_issues:
+  - text: "Difficulty falling asleep is common. Try establishing a regular sleep schedule and a relaxing bedtime routine."
+  - text: "Waking up at night can be frustrating. It might help to avoid caffeine and electronics before bed."
+  - text: "Constant tiredness due to poor sleep can impact your day. Consider creating a comfortable sleep environment free of distractions."
+  - text: "Improving sleep quality can involve regular exercise, reducing stress, and ensuring a comfortable sleep environment."
+  - text: "Insomnia can be challenging. If it's a persistent issue, it may be helpful to consult with a sleep specialist."
+  utter_personal_growth:
+  - text: "Improving oneself is a lifelong journey. Setting specific, achievable goals can be a good start."
+  - text: "Being a better person often involves empathy, self-reflection, and understanding others' perspectives."
+  - text: "Personal development is great! Focus on areas you're passionate about and be patient with your progress."
+  - text: "Good self-improvement goals can include learning new skills, improving communication, and building healthier habits."
+  - text: "Emotional and mental growth is important. Consider activities that challenge you, foster creativity, and encourage mindfulness."
+  utter_managing_emotions:
+  - text: "Feeling angry can be draining. It might help to explore what triggers these feelings and how to address them."
+  - text: "Controlling emotions starts with recognizing them. Mindfulness and breathing exercises can help in managing them."
+  - text: "Frequent crying can be a sign of emotional distress. It's okay to seek support to talk about these feelings."
+  - text: "Dealing with mood swings can be challenging. Consistent routines and stress reduction techniques might help."
+  - text: "Getting upset easily can be tough. It might be helpful to practice relaxation techniques or talk to a counselor about it."
+  utter_social_anxiety:
+  - text: "Fear of social situations is common. Starting with small, manageable interactions can help build confidence."
+  - text: "Feeling anxious in crowds is a common form of social anxiety. Practicing relaxation techniques might help in such situations."
+  - text: "Overcoming fear of meeting new people can start with understanding the root of this fear and taking small steps to address it."
+  - text: "Avoiding social gatherings can be isolating. Maybe try attending events with a friend or in settings you find comfortable."
+  - text: "Being nervous about talking to strangers can be improved by practicing in safe, low-pressure environments."
+  utter_substance_use:
+  - text: "Acknowledging that you might be drinking too much is an important first step. Have you considered talking to a professional about it?"
+  - text: "Identifying a substance abuse problem often involves looking at how it's affecting your life and relationships. Professional guidance can be very helpful."
+  - text: "Struggling to stop using drugs is a serious issue. It's important to seek professional help as soon as possible."
+  - text: "Seeking help with addiction is a courageous step. There are many resources available, including counseling and support groups."
+  - text: "If your friend is struggling with substance abuse, encouraging them to seek professional help can be a good way to support them."
+  utter_eating_disorders:
+  - text: "Concerns about eating habits can be serious. It's important to talk to a healthcare professional about this."
+  - text: "If you think you might have an eating disorder, seeking help from a specialist is a crucial step."
+  - text: "Overcoming fear of eating often requires professional guidance to address the underlying issues."
+  - text: "Obsession with weight and food can be signs of an eating disorder. Professional help can provide the support needed to work through these issues."
+  - text: "If your friend is starving themselves, they may be dealing with an eating disorder. Encouraging them to seek professional help is important."
+  utter_stress_management:
+  - text: "Dealing with stress is important for your health. Have you tried relaxation techniques like meditation or yoga?"
+  - text: "Handling stress better can start with identifying stressors and finding ways to reduce or manage them."
+  - text: "Constant stress can be overwhelming. It's important to take time for self-care and perhaps seek professional advice."
+  - text: "Job-related stress is common. Consider discussing your workload with your supervisor or finding ways to decompress after work."
+  - text: "Effective stress relief techniques include exercise, hobbies, spending time in nature, and practicing mindfulness."
+  utter_body_image_issues:
+  - text: "Unhappiness with body image can be tough. Remember, true value is not based on appearance alone."
+  - text: "Improving body image starts with self-acceptance and recognizing your unique qualities and strengths."
+  - text: "Comparing yourself to others can be damaging. Focus on your own journey and personal growth."
+  - text: "Feeling bad about your looks is something many people experience. Try to focus on things you like about yourself."
+  - text: "An obsession with appearance can be harmful. It might help to speak with a counselor about these feelings."
+  utter_academic_anxiety:
+  - text: "School-related stress is common. Try to create a balanced study schedule and take regular breaks."
+  - text: "Exam anxiety is a challenge for many. Practice good study habits and relaxation techniques like deep breathing."
+  - text: "Dealing with academic pressure is about balance. Make sure to set realistic goals and give yourself time to recharge."
+  - text: "Fear of failure is normal, but it shouldn't overpower your life. Focus on the effort, not just the outcome."
+  - text: "Difficulty focusing can be due to stress or other factors. Try to find a quiet study area and limit distractions."
+  utter_positive_thinking:
+  - text: "Being more optimistic starts with recognizing negative thought patterns and challenging them."
+  - text: "Having a positive outlook can be developed by practicing gratitude and focusing on positive aspects of life."
+  - text: "Negative thinking can be a hard habit to break. Try to replace negative thoughts with positive or realistic ones."
+  - text: "Stopping negative thoughts involves awareness and practice. Mindfulness and positive affirmations can help."
+  - text: "Struggling with pessimism is common. Surround yourself with positive influences and celebrate your small wins."
+  utter_loneliness:
+  - text: "Feeling alone can be hard. Connecting with others, even in small ways, can help. Have you considered joining a group or club?"
+  - text: "Dealing with loneliness involves reaching out. Maybe try connecting with others through shared interests or hobbies."
+  - text: "Feeling misunderstood is tough. Sometimes sharing your thoughts in support groups or forums can help you find understanding people."
+  - text: "Not having friends can feel isolating. Remember, it's never too late to build new relationships. Community events can be a good start."
+  - text: "Being by yourself often can lead to loneliness. Seeking out social activities, even if they're outside your comfort zone, can be beneficial."
+  utter_motivation:
+  - text: "Lack of motivation can be challenging. Setting small, achievable goals can help you get started."
+  - text: "Motivating yourself often starts with understanding why you lost motivation. Is there an underlying issue you can address?"
+  - text: "Struggling to do anything can be a sign of underlying issues like depression. It might be helpful to talk to a professional."
+  - text: "Losing interest in hobbies can happen. Trying something new or revisiting old interests in a new way might help reignite your passion."
+  - text: "When nothing excites you, it can feel like you're stuck in a rut. Sometimes, a change in routine or exploring new activities can help."
+  utter_anger_management:
+  - text: "Getting angry quickly can be tough to manage. Recognizing triggers and practicing relaxation techniques might help."
+  - text: "Controlling anger is important for your wellbeing. Deep breathing, stepping away from the situation, or talking to someone can help."
+  - text: "If you can't keep your temper in check, consider seeking help from a counselor who can offer strategies for managing anger."
+  - text: "Regretting actions when angry is common. Learning to recognize the onset of anger and taking time to cool down can be helpful."
+  - text: "If anger is affecting your relationships, it's crucial to address this issue. Communication skills and anger management techniques can be beneficial."
+  utter_referral_to_professional:
+  - text: "Seeing a professional can be very beneficial. Would you like help finding one?"
+  - text: "It's great you're considering professional help. I can assist you in finding a therapist."
+  - text: "Talking to a professional can be a big step forward. Let me help you find someone suitable."
+  utter_coping_strategies:
+  - text: "There are various techniques like deep breathing, mindfulness, and exercise that can help with anxiety."
+  - text: "Stress can be managed in many ways, such as through relaxation techniques, physical activity, or creative outlets."
+  - text: "For sleep issues, establishing a regular routine and reducing screen time before bed can help."
+  - text: "During a panic attack, focusing on slow, deep breaths and grounding techniques can be beneficial."
+  - text: "Managing depression includes a variety of approaches like staying active, connecting with others, and seeking professional advice."
+  utter_emotional_support:
+  - text: "It's really tough to feel lonely, but I'm here for you. Let's talk about what you're feeling."
+  - text: "Feeling misunderstood can be very isolating. I'm here to listen to you."
+  - text: "It's okay to feel upset without knowing why. Do you want to talk more about what you're experiencing?"
+  - text: "It can be hard to feel like no one cares, but your feelings are important. Let's discuss them together."
+  - text: "Persistent sadness can be overwhelming. Have you been able to share these feelings with anyone else?"
+  utter_self_help_recommendations:
+  - text: "Self-help can start with small steps like setting daily goals or practicing mindfulness."
+  - text: "Self-care activities include things like taking a walk, reading a book, or practicing meditation."
+  - text: "Improving your mood can involve activities you enjoy, spending time in nature, or trying out relaxation techniques."
+  - text: "Self-improvement is a personal journey; it can include learning new skills, self-reflection, and seeking feedback."
+  - text: "Dealing with negative thoughts can involve challenging and replacing them with more positive or realistic ones."
+  utter_general_advice:
+  - text: "Happiness often comes from engaging in activities you love and spending time with people who matter to you."
+  - text: "Reducing stress can involve regular exercise, a healthy diet, adequate sleep, and mindfulness practices."
+  - text: "Life advice varies for everyone, but it's often about finding balance, setting goals, and being true to yourself."
+  - text: "Being more positive can start with gratitude practices and focusing on solutions rather than problems."
+  - text: "Change starts with setting clear goals, making a plan, and taking small steps towards those goals every day."
+  utter_miscellaneous_queries:
+  - text: "Why don't scientists trust atoms? Because they make up everything!"
+  - text: "I'm not able to check the weather, but it's always good to carry an umbrella just in case."
+  - text: "One book that many find inspiring is 'Man's Search for Meaning' by Viktor Frankl."
+  - text: "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old!"
+  - text: "Here's a quote I like: 'The only way to do great work is to love what you do.' - Steve Jobs"
+  utter_encouragement:
+  - text: "It's okay to feel overwhelmed sometimes. What you're feeling is valid, and it's okay to ask for help."
+  - text: "Remember, it's okay to take things one step at a time. You don't have to have it all figured out right now."
+  - text: "Struggling with emotions is a part of being human. It's important to acknowledge and talk about them."
+  - text: "Feeling like you're failing doesn't mean you are. Every step, no matter how small, is progress."
+  - text: "It can be hard, but you're not alone. Many people are here to support you, including me."
+  utter_relationship_advice:
+  - text: "Relationship troubles can be challenging. Have you tried discussing your feelings openly with your partner?"
+  - text: "Improving relationships often involves good communication, understanding, and setting healthy boundaries."
+  - text: "Feeling lonely in a relationship can be tough. It might help to share these feelings with your partner or a close friend."
+  - text: "Frequent arguments can be stressful. It's important to find a calm time to discuss the underlying issues."
+  - text: "Dealing with a breakup is tough. Give yourself time to grieve and consider reaching out to friends or a counselor for support."
+  utter_workplace_stress:
+  - text: "Workplace stress is common. It can help to prioritize tasks and take short breaks throughout the day."
+  - text: "Finding work-life balance is crucial. Setting boundaries and allocating time for self-care are important steps."
+  - text: "Dealing with a toxic coworker can be draining. It might be helpful to set clear boundaries and communicate your concerns to HR."
+  - text: "Considering a career change is a big decision. Reflect on what you truly want and maybe seek advice from a career counselor."
+  - text: "Feeling burnt out is a sign to take a step back. It's important to take care of your health and consider discussing workload with your manager."
+  utter_self_esteem_issues:
+  - text: "Building self-esteem takes time. Start by acknowledging your strengths and achievements, no matter how small."
+  - text: "Feeling better about yourself can begin with positive self-talk and setting realistic goals."
+  - text: "Feeling inadequate is a common issue. Remember, your worth is not defined by achievements or comparisons with others."
+  - text: "Being hard on yourself can be draining. Try to treat yourself with the same kindness you would offer to a friend."
+  - text: "Feeling like you're not good enough can be linked to high self-expectations. It's important to challenge and reframe these thoughts."
+  utter_anxiety_management:
+  - text: "Constant worrying can be overwhelming. Have you tried mindfulness or deep breathing exercises?"
+  - text: "If your anxiety is worsening, it might be time to speak with a professional who can offer specific strategies."
+  - text: "Managing panic attacks involves recognizing the signs early and practicing calming techniques like deep breathing."
+  - text: "Feeling tense and nervous can be symptoms of anxiety. Regular exercise and relaxation techniques can help."
+  - text: "Reducing anxiety can involve lifestyle changes, stress management techniques, and sometimes professional help."
+  utter_what is depression?:
+  - text: "depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.fortunately,it is also treatable.depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. it can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home."
+  utter_dealing_with_change:
+  - text: "Coping with change can be challenging. It's important to take things one step at a time and seek support when needed."
+  - text: "Adapting to new situations often involves being open to change and flexible in your thinking. What specific change are you dealing with?"
+  - text: "It's natural to feel anxious about change. Try to focus on the aspects of the change that you can control."
+  - text: "Fear of change is common. Remember, change can also lead to new opportunities and experiences."
+  - text: "Rapid changes can be overwhelming. Try to establish a routine and set aside time for self-care to manage these feelings."
+  utter_existential_questions:
+  - text: "Exploring the meaning of life is a deep and personal journey. It can be helpful to explore different philosophies, beliefs, or speak with a counselor."
+  - text: "Questioning life's purpose can be daunting but also an opportunity for profound self-discovery. What brings you the most joy and fulfillment?"
+  - text: "Our existence is a profound mystery with many perspectives to consider. It might be helpful to read, explore, and discuss these big questions."
+  - text: "Feeling that life is meaningless can be a sign of existential distress. Finding meaning can come from connections, personal goals, or contributions."
+  - text: "Struggling with existential thoughts is not uncommon. Sometimes these thoughts can be addressed by finding joy in small things and creating personal goals."
+  utter_seeking_comfort:
+  - text: "I'm here to listen. Feel free to share what's on your mind."
+  - text: "Finding comfort is important. I'll do my best to help. What’s bothering you?"
+  - text: "I understand you're looking for some reassurance. Remember, it's okay to feel down sometimes."
+  - text: "Everyone needs encouragement sometimes. You're stronger than you think and capable of overcoming challenges."
+  - text: "If you're feeling down, talking about it can be a good step. I'm here to listen to whatever you'd like to share."
+  utter_seeking_information:
+  - text: "Anxiety is a normal emotion but can be a disorder if it's excessive. It includes feelings of tension, worried thoughts, and physical changes like increased blood pressure."
+  - text: "Symptoms of depression can include persistent sadness, loss of interest in activities, changes in sleep, and feelings of worthlessness, among others."
+  - text: "PTSD is typically triggered by a traumatic event and symptoms can include flashbacks, severe anxiety, and uncontrollable thoughts about the event."
+  - text: "Bipolar disorder is characterized by mood swings ranging from depressive lows to manic highs. It's a complex condition that requires professional diagnosis."
+  - text: "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act."
+  utter_self_acceptance:
+  - text: "Self-acceptance is a journey, and it's okay to have struggles along the way. Remember, everyone has flaws and that's what makes us human."
+  - text: "Accepting yourself involves understanding that you are more than your perceived flaws. Try to focus on your strengths and qualities."
+  - text: "Not liking yourself can be a painful feeling. It might help to talk about these feelings and explore where they come from."
+  - text: "Having a hard time accepting your flaws is common. Consider that these 'flaws' are part of what makes you unique."
+  - text: "Feeling bad about yourself can be really tough. It's important to challenge negative thoughts and replace them with more positive, realistic views."
+  utter_relationship_issues:
+  - text: "Relationship problems can be very challenging. It's important to communicate openly and honestly with your partner."
+  - text: "Improving a relationship often starts with communication and understanding each other's needs and perspectives."
+  - text: "Frequent fighting can be stressful. It might be helpful to seek couples counseling to address the underlying issues."
+  - text: "Feeling unhappy in a relationship is tough. Reflect on what you truly want and need, and consider discussing this with your partner."
+  - text: "Thinking about ending a relationship is a significant decision. It's important to consider all aspects and possibly seek guidance from a counselor."
+  utter_coping_with_loss:
+  - text: "Losing someone important is incredibly hard. It's okay to grieve and take the time you need to heal."
+  - text: "Coping with loss involves allowing yourself to experience the grief while finding ways to remember and honor the person you lost."
+  - text: "Not being able to get over a death is a natural part of grieving. It's a process that takes time and can't be rushed."
+  - text: "Grieving can leave you feeling lost and unsure. It can be helpful to talk about your feelings and seek support from friends, family, or a grief counselor."
+  - text: "The pain of loss can feel overwhelming. Remember, it's okay to ask for help and to lean on others during this difficult time."
+  utter_career_guidance:
+  - text: "Feeling unhappy with your job can be disheartening. Reflect on the reasons why and consider if they can be addressed or if a change is needed."
+  - text: "Changing careers is a big decision. Think about what you truly enjoy and what kind of work aligns with your values and interests."
+  - text: "Not knowing which job is right for you is common. Consider exploring different fields or talking to a career counselor for guidance."
+  - text: "Considering quitting your job is significant. Ensure you have considered the implications and have a plan for what comes next."
+  - text: "Finding a fulfilling career involves understanding your passions and skills. Don't hesitate to explore different paths and seek advice."
+  utter_managing_fear:
+  - text: "It's natural to feel scared, but when fear becomes overwhelming, it's important to address it. Understanding the root of your fears can be a good starting point."
+  - text: "Overcoming fears often involves facing them gradually. Small steps and self-compassion are key."
+  - text: "If everything frightens you, it might be a sign of underlying anxiety. Speaking with a professional could provide you with strategies to cope."
+  - text: "Dealing with irrational fears can be challenging. Cognitive-behavioral therapy techniques might be particularly helpful in this case."
+  - text: "If fear is controlling your life, it's important to seek help. A mental health professional can work with you to regain control."
+  utter_managing_anxiety:
+  - text: "Managing anxiety is challenging, but there are techniques like deep breathing, mindfulness, and staying present that can help."
+  - text: "Reducing anxiety often involves identifying triggers, practicing relaxation techniques, and sometimes seeking help from a professional."
+  - text: "If you're struggling to control worry, it might be helpful to try structured problem-solving methods and setting aside specific times to address worries."
+  - text: "Techniques to manage anxiety include practicing mindfulness, engaging in physical activity, and using relaxation exercises like deep breathing."
+  - text: "When anxiety feels overwhelming, grounding techniques or focusing on sensory experiences (like touch, sight, or sound) can help bring you back to the present moment."
+  utter_coping_with_stress:
+  - text: "Coping with stress is key to maintaining your health. Try to identify the main sources of your stress and address them directly."
+  - text: "To cope with stress, consider activities that relax you, such as reading, yoga, or spending time outdoors. Also, don't hesitate to ask for help when needed."
+  - text: "If everything is causing stress, it might help to prioritize your tasks. Focus on one thing at a time and set realistic expectations for yourself."
+  - text: "Finding ways to handle stress can include setting aside time for relaxation, practicing mindfulness, and ensuring you're getting enough rest and exercise."
+  - text: "When stress is overwhelming, it's important to step back and reassess. Sometimes, seeking support from a therapist can provide strategies to regain control."
+  utter_building_self_esteem:
+  - text: "Building self-esteem starts with acknowledging your strengths and accomplishments. Try to focus on what you like about yourself and your achievements."
+  - text: "To improve self-esteem, set small, achievable goals, celebrate your successes, and challenge negative thoughts about yourself."
+  - text: "If you don't feel good about yourself, consider what qualities you admire in others and how you might cultivate them in yourself."
+  - text: "Building confidence can involve stepping out of your comfort zone, practicing self-compassion, and engaging in activities you're good at or enjoy."
+  - text: "Feeling inferior can be a sign of negative self-comparison. Remember, your worth is not determined by how you stack up against others."
+  utter_dealing_with_loneliness:
+  - text: "Feeling lonely is tough, but there are ways to connect with others. Consider joining groups or clubs that align with your interests."
+  - text: "To deal with loneliness, try reaching out to old friends or making new connections. Volunteering can also be a great way to meet people."
+  - text: "Not having friends can feel isolating. Remember, it's never too late to build new relationships. Online communities can be a good place to start."
+  - text: "To feel less lonely, consider activities that involve others, like classes, clubs, or online forums that match your interests."
+  - text: "Isolation can lead to sadness. It's important to reach out, whether it's to family, friends, or support groups. Sharing your feelings can also help."
+  utter_handling_mood_swings:
+  - text: "Rapid mood changes can be disconcerting. It's important to track these changes and understand potential triggers. Consistent routines and stress management may help."
+  - text: "If you're struggling to control mood swings, consider discussing this with a mental health professional who can offer specific strategies."
+  - text: "Experiencing sudden changes in mood can be challenging. Techniques like mindfulness and deep breathing may help in managing these shifts."
+  - text: "Unpredictable emotions can be due to various factors, including stress or underlying mental health issues. Seeking professional advice can provide clarity and coping mechanisms."
+  - text: "Struggling with sudden mood changes is tough. It's important to seek support, whether it's talking to someone you trust or a professional, to better manage these changes."
+  utter_exploring_identity_issues:
+  - text: "Exploring your identity is a deeply personal journey. It can be helpful to try new experiences, reflect on your values, and consider what truly matters to you."
+  - text: "Struggling with identity can be a challenging phase. Consider exploring your interests and beliefs, and remember that it's okay for your identity to evolve over time."
+  - text: "Finding out who you really are often involves self-exploration and reflection. It might also be helpful to talk about these feelings with a therapist."
+  - text: "Issues with self-identity can be unsettling. Try to engage in activities that align with your interests and values, and give yourself permission to explore and change."
+  - text: "Feeling lost about your personal identity is not uncommon. Reflect on your past experiences, current interests, and future aspirations to gain clarity."
+  utter_addressing_procrastination:
+  - text: "Procrastination can be a tough habit to break. One strategy is to break tasks into smaller, more manageable steps and reward yourself for completing them."
+  - text: "To stop putting things off, try setting clear goals and deadlines. A consistent work routine and a distraction-free environment can also help."
+  - text: "If you're always delaying work, consider the reasons behind it. Is it due to fear of failure, perfectionism, or lack of interest?"
+  - text: "Procrastination often has underlying causes like anxiety or perfectionism. Addressing these root issues can help in overcoming the habit."
+  - text: "Struggling to get things done on time can be frustrating. Prioritizing tasks and setting realistic deadlines might help you manage your workload better."
+  utter_navigating_career_transitions:
+  - text: "Changing careers is a significant decision. Consider your interests, skills, and the kind of work environment you thrive in."
+  - text: "Navigating a career transition involves researching new fields, possibly acquiring new skills, and networking with professionals in the desired industry."
+  - text: "If you're unhappy with your current job, reflect on the reasons why and what you're looking for in a new career. This can guide your transition."
+  - text: "When considering a career change, think about job satisfaction, growth opportunities, work-life balance, and how the change aligns with your long-term goals."
+  - text: "Feeling overwhelmed by a career change is natural. Take it one step at a time, seek advice from mentors, and consider professional career counseling."
+  utter_overcoming_negativity:
+  - text: "Overcoming negativity often starts with awareness. Recognize negative thoughts and challenge them with more positive or realistic perspectives."
+  - text: "To stop negative thoughts, try practicing mindfulness or meditation. These can help you stay grounded in the present and reduce negative thinking."
+  - text: "If your mind is often full of negative ideas, consider writing them down. This can help you evaluate and challenge these thoughts more effectively."
+  - text: "Being stuck in a cycle of negativity can be exhausting. Surrounding yourself with positive influences and practicing gratitude can help shift your mindset."
+  - text: "If you find it hard to see things positively, start with small steps. Acknowledge one positive thing each day, no matter how small."
+  utter_dealing_with_frustration:
+  - text: "Constant frustration can be draining. Try identifying the triggers and address them directly. Deep breathing and taking a break can also help."
+  - text: "Managing frustration might involve changing the way you react to situations. Mindfulness and empathy can be effective tools."
+  - text: "If everything annoys you, it might be a sign of underlying stress or anxiety. Addressing these root causes can help reduce your frustration."
+  - text: "Controlling frustration is challenging but possible. Practice patience and try to view situations from different perspectives."
+  - text: "Getting frustrated over small things can indicate a need for stress relief. Engage in activities that relax you, like exercise or hobbies."
+  utter_building_resilience:
+  - text: "Becoming more resilient often involves facing challenges and learning from setbacks. Reflect on past difficulties and how you've overcome them."
+  - text: "Building resilience can start with maintaining a positive outlook, setting realistic goals, and developing strong relationships for support."
+  - text: "To develop resilience, practice problem-solving skills, engage in self-care, and don't be afraid to ask for help when needed."
+  - text: "If you find yourself giving up easily, try to set smaller, achievable goals. Celebrating small wins can build your confidence and resilience."
+  - text: "Wanting to be stronger mentally is a great goal. Focus on self-compassion, patience, and understanding that growth often comes with challenges."
+  utter_improving_concentration:
+  - text: "Improving concentration often involves reducing distractions. Create a dedicated workspace and set specific times for focused work."
+  - text: "To improve your focus, try breaking tasks into smaller parts and taking regular breaks. Techniques like the Pomodoro Technique might be helpful."
+  - text: "Poor concentration can sometimes be due to underlying stress or lack of sleep. Addressing these issues can significantly improve your focus."
+  - text: "Activities that can help with concentration include mindfulness exercises, brain-training games, and regular physical exercise."
+  - text: "If you get distracted easily, consider using tools like to-do lists or focus apps to keep you on track. Minimizing multi-tasking can also be effective."
+  utter_handling_guilt:
+  - text: "Feeling guilty is a common emotion, but it's important to evaluate whether it's justified. Understanding the root cause of your guilt can help you address it."
+  - text: "Dealing with guilt involves forgiving yourself, learning from past mistakes, and moving forward. Remember, everyone makes mistakes."
+  - text: "If you're burdened by guilt, try expressing these feelings through writing or talking to someone you trust. This can provide relief and clarity."
+  - text: "Overwhelming guilt can be paralyzing. Consider speaking with a therapist who can help you work through these feelings constructively."
+  - text: "Letting go of guilt is challenging but essential for your mental health. Practice self-compassion and remind yourself that nobody is perfect."
+  utter_managing_burnout:
+  - text: "Feeling burned out is a sign you need to take a step back and rest. It's important to set boundaries and prioritize self-care."
+  - text: "To overcome burnout, consider what aspects of your work or life are causing the most stress and seek ways to reduce or manage them."
+  - text: "If your work is causing burnout, try discussing workload or flexibility options with your employer, and ensure you take regular breaks."
+  - text: "Burnout can drain your energy significantly. Ensure you're getting enough rest and consider activities that replenish you, like hobbies or spending time in nature."
+  - text: "Constant exhaustion may indicate a need to reassess your commitments. It's okay to ask for help and reduce your workload."
+  utter_addressing_feelings_of_failure:
+  - text: "Feeling like a failure can be disheartening, but it's important to remember that failure is a part of growth. Reflect on what these experiences have taught you."
+  - text: "To stop feeling like a failure, focus on your strengths and past successes. Set realistic goals and celebrate small victories."
+  - text: "Not feeling successful can be a matter of perspective. Success isn't just about big achievements; it's also about the small steps you take each day."
+  - text: "If you see your life as a series of failures, it might help to adjust your expectations and recognize the value in learning from mistakes."
+  - text: "Being disappointed in yourself is tough, but try to practice self-compassion. Everyone has setbacks, and they don't define your worth."
+  utter_seeking_meaning_and_purpose:
+  - text: "Searching for meaning in life is a profound journey. Start by exploring what matters most to you and what brings you joy and fulfillment."
+  - text: "Finding your purpose can involve trying new things, reflecting on what you're passionate about, and considering how you can contribute to something larger than yourself."
+  - text: "Not knowing what your life is for can feel unsettling. Consider exploring different interests, volunteering, or engaging in activities that align with your values."
+  - text: "To find your passion, think about activities that engage and energize you. It's also helpful to be open to new experiences and learning."
+  - text: "If life feels meaningless, it might help to focus on connections with others, setting personal goals, and finding joy in small, everyday experiences."
+  utter_overcoming_insecurity:
+  - text: "Feeling insecure is a common issue. Try to focus on your strengths and achievements, and remember that everyone has their own unique path and pace."
+  - text: "To be less insecure, practice self-compassion and set realistic expectations for yourself. Remember, it's okay to not be perfect."
+  - text: "Struggling with self-doubt can be challenging. Try to challenge these doubts with evidence of your abilities and successes."
+  - text: "If insecurities are holding you back, consider talking to a therapist who can help you work through these feelings and build confidence."
+  - text: "Constant comparison with others can fuel insecurity. Try to focus on your own growth and progress, not on how you stack up against others."
+  utter_dealing_with_jealousy:
+  - text: "Jealousy is a natural emotion, but it's important to understand its root causes. Reflect on why you feel this way and what insecurities might be driving it."
+  - text: "To stop feeling jealous, focus on your own life and achievements. Practicing gratitude can also help shift your perspective."
+  - text: "If jealousy is affecting your relationships, open communication and building self-esteem can be helpful. Consider discussing your feelings with a trusted person or a therapist."
+  - text: "Feeling envious can be a sign of deeper issues like insecurity or dissatisfaction with your own life. Focusing on your personal growth can help reduce these feelings."
+  - text: "Feeling jealous is often an automatic response, but you can learn to manage it. Acknowledge the feeling, then challenge it with rational thoughts and focus on your own goals."
+  utter_handling_rejection:
+  - text: "Handling rejection is tough but remember, it's not a reflection of your worth. Each rejection is an opportunity to learn and grow."
+  - text: "Feeling like a failure after rejection is common, but try to see it as a normal part of life and not a measure of your value."
+  - text: "Dealing with rejection involves accepting it as a part of life, learning from the experience, and moving forward with resilience."
+  - text: "If rejection affects your self-esteem, try to focus on your strengths and accomplishments. Remember, rejection is a universal experience, not a personal indictment."
+  - text: "Rejection hurts because it can trigger feelings of unworthiness. It's important to remind yourself of your worth and that rejection is a part of life, not the end of your journey."
+  utter_struggling_with_change:
+  - text: "Fear of change is natural. Start by taking small steps and gradually adapting to the new situation. Look for aspects of change that can be positive or beneficial."
+  - text: "Change can be anxiety-inducing, but it's also an opportunity for growth. Embrace it gradually and seek support when needed."
+  - text: "To adapt to change better, try to maintain a positive attitude, stay open-minded, and give yourself time to adjust."
+  - text: "Feeling overwhelmed by change is common. Try breaking down the change into smaller, manageable parts and tackle them one at a time."
+  - text: "Resisting change is a natural reaction, but remember, change can lead to new opportunities. Reflect on the benefits and allow yourself time to adapt."
+  utter_addressing_loneliness:
+  - text: "Feeling alone can be tough, but there are ways to connect with others. Maybe try joining a club, class, or online community where you can meet people with similar interests."
+  - text: "It's painful to feel misunderstood. Sometimes sharing your thoughts in support groups or forums can help you find people who understand what you're going through."
+  - text: "Coping with loneliness involves reaching out. It could be as simple as starting a conversation with someone or reconnecting with old friends."
+  - text: "If you feel like you have no one to talk to, consider joining a group or class, volunteering, or even reaching out to a counselor for a chat."
+  - text: "Isolation can be overwhelming. Making small steps towards social interaction, even virtually, can help alleviate these feelings."
+  utter_managing_anger:
+  - text: "It's important to understand what triggers your anger. Try to notice the warning signs and take a break if you start feeling overwhelmed."
+  - text: "Controlling anger involves recognizing the early signs and using techniques like deep breathing or stepping away from the situation to calm down."
+  - text: "If you lose your temper frequently, consider exploring underlying reasons with a therapist. They can provide strategies to handle anger more effectively."
+  - text: "Managing anger is a skill that requires practice. Techniques like relaxation exercises, communication skills, and sometimes seeking professional help can be beneficial."
+  - text: "If your anger is affecting your relationships, it might be helpful to discuss your feelings with a professional who can offer strategies to communicate more effectively."
+  utter_overcoming_fear:
+  - text: "Facing fears can be challenging, but it can help to gradually expose yourself to what scares you in a controlled and safe way."
+  - text: "Overcoming fear often involves understanding the root of the fear and challenging irrational thoughts associated with it."
+  - text: "Living in constant fear can be exhausting. Mindfulness and relaxation techniques might help in managing these feelings."
+  - text: "If fear is holding you back, consider taking small steps to face it. Remember, it's okay to seek support from friends, family, or a therapist."
+  - text: "Being always afraid of the future can be a sign of anxiety. Focusing on the present and what you can control might help alleviate these fears."
+  utter_navigating_relationship_difficulties:
+  - text: "Relationship struggles are common. Open and honest communication is key. Consider discussing your feelings and needs with your partner."
+  - text: "Improving a relationship often involves mutual understanding, empathy, and compromise. Couples counseling can also be helpful."
+  - text: "If you and your partner argue frequently, it might help to learn conflict resolution skills and try to understand each other's perspectives."
+  - text: "Feeling unhappy in a relationship is tough. Reflect on what you want and need, and consider having a candid conversation with your partner about these feelings."
+  - text: "Misunderstandings in relationships can be challenging. Try to actively listen to each other and express your thoughts and feelings clearly."
+  utter_dealing_with_anxiety_attacks:
+  - text: "During an anxiety attack, try to focus on deep, slow breathing. Remind yourself that the attack will pass and that you're safe."
+  - text: "Handling a panic attack involves grounding yourself in the present. Focus on things you can see, touch, or hear around you."
+  - text: "Anxiety attacks can be frightening, but they are not dangerous. It's important to practice calming techniques and consider seeking help from a therapist."
+  - text: "If you're having an anxiety attack, find a quiet place if possible. Practice deep breathing or mindfulness to ease the symptoms."
+  - text: "Feeling like you're losing control during panic attacks is common. Grounding techniques and deep breathing can help regain a sense of control."
+  utter_managing_social_anxiety:
+  - text: "Dealing with social anxiety involves gradual exposure to social situations. Start small and gradually increase your interaction level."
+  - text: "Coping with social anxiety can be achieved through relaxation techniques, positive self-talk, and challenging negative thoughts about social interactions."
+  - text: "Feeling anxious around people is a common symptom of social anxiety. Practicing scenarios and deep breathing can help reduce this anxiety."
+  - text: "If social interactions make you nervous, prepare some conversation starters beforehand. Remember, it's okay to take breaks if you feel overwhelmed."
+  - text: "Avoiding new people due to anxiety is common. Try joining groups or activities where you can meet people in a low-pressure setting."
+  utter_understanding_emotions:
+  - text: "Understanding your feelings can be complex. Journaling or talking to someone can help you process and identify your emotions."
+  - text: "Being emotional is a natural part of being human. If your emotions feel overwhelming, it might help to explore their roots with a therapist."
+  - text: "Struggling to identify emotions is a common issue. Consider each emotion you feel and try to connect it to what might have triggered it."
+  - text: "If your emotions are confusing, take a moment to reflect on what happened before you started feeling this way. This can provide insights."
+  - text: "Making sense of your feelings can involve reflecting on your experiences, noticing patterns, and possibly discussing them with a mental health professional."
+  utter_coping_with_grief:
+  - text: "Coping with grief is a personal journey. Allow yourself to feel the emotions and seek support from friends, family, or a grief counselor."
+  - text: "Dealing with the loss of a loved one is incredibly hard. Remember, it's okay to grieve and it's okay to seek help in managing your grief."
+  - text: "If your grief feels overwhelming, try to establish a routine that includes time for self-care and reflection. Joining a support group can also be beneficial."
+  - text: "Feeling stuck in grief is a common part of the grieving process. Consider speaking with a therapist who can help you navigate these feelings."
+  - text: "When grief affects your daily life, it's important to take it one day at a time. Allow yourself to grieve and consider seeking professional support."
+  utter_overcoming_hopelessness:
+  - text: "Feeling hopeless can be overwhelming, but remember, situations and feelings are often temporary. Small steps towards positive changes can help."
+  - text: "When things don't seem to get better, it's important to reach out for support. Talking to a therapist or counselor can provide new perspectives and hope."
+  - text: "Finding hope again can involve setting small, achievable goals and recognizing the progress you make, no matter how small."
+  - text: "If your situation feels hopeless, try to focus on things you can control and take action on those. Helping others can also bring a sense of purpose and hope."
+  - text: "Losing hope for the future can be a sign of depression. Professional help can provide support and strategies to regain a sense of hope and direction."
+  utter_addressing_chronic_illness:
+  - text: "Dealing with chronic illness is indeed challenging. Finding a support group and speaking to a therapist can help you cope."
+  - text: "Coping with a chronic disease involves managing stress, practicing self-care, and seeking support from healthcare professionals and loved ones."
+  - text: "If your illness is affecting your mental health, it's important to address this with your healthcare provider. They can recommend treatments or support."
+  - text: "Living with chronic pain is tough. Along with medical treatment, mindfulness and relaxation techniques can help manage pain and improve mental well-being."
+  - text: "Chronic illness can lead to feelings of depression. It's important to acknowledge these feelings and seek support from mental health professionals."
+  utter_addressing_body_image_issues:
+  - text: "Hating your body can be painful. Try to focus on your body's capabilities and practice gratitude for what it allows you to do."
+  - text: "Improving your body image involves challenging societal standards of beauty and focusing on self-acceptance and self-care."
+  - text: "Struggling with your appearance is a common issue. Remember, true beauty is about who you are as a person, not just about how you look."
+  - text: "If your body image is affecting your self-esteem, consider speaking to a therapist who can help you work through these feelings."
+  - text: "Feeling unattractive all the time can be a sign of deeper self-esteem issues. Try to focus on your positive qualities and what you like about yourself."
+  utter_dealing_with_obsessive_thoughts:
+  - text: "Obsessing over things can be draining. Try to engage in activities that distract you and break the cycle of obsessive thinking."
+  - text: "Obsessive and intrusive thoughts are challenging. Practicing mindfulness and grounding exercises can help manage them."
+  - text: "Controlling obsessive thoughts often requires professional help. Cognitive-behavioral therapy (CBT) can be particularly effective."
+  - text: "Being plagued by constant obsessions is tough. It's important to seek help from a mental health professional who can provide strategies to cope."
+  - text: "If obsessive thinking is taking over your life, consider seeking therapy. Therapists can help you understand and manage these thoughts."
+  utter_navigating_life_transitions:
+  - text: "Navigating life changes can be challenging. It helps to establish a routine, set small goals, and seek support from friends, family, or a counselor."
+  - text: "Adapting to major life changes involves patience and resilience. Try to focus on one day at a time and recognize the growth that comes with change."
+  - text: "Feeling overwhelmed by life transitions is natural. Remember, it's okay to ask for help and take time to adjust to new circumstances."
+  - text: "Feeling lost due to life changes is common. Try to explore new interests or activities that can help you find new purpose and direction."
+  - text: "Coping with life transitions can be difficult. Consider joining support groups or seeking therapy to navigate these changes more effectively."
+  utter_finding_motivation:
+  - text: "Lack of motivation can be tough. Start with setting small, achievable goals and gradually build up from there."
+  - text: "Finding motivation in life can involve reconnecting with what you are passionate about or trying new, engaging activities."
+  - text: "When nothing seems motivating, it's often helpful to change your routine or environment to spark interest and motivation."
+  - text: "Losing your drive can happen. Reflect on past activities that made you feel fulfilled and consider revisiting them."
+  - text: "Getting motivated when feeling down can start with self-care and recognizing that it's okay to have low-energy days. Focus on what makes you feel good, even if it's small."
+  utter_handling_worry:
+  - text: "Worrying about everything can be stressful. Try to focus on the present moment and what you can control."
+  - text: "To stop worrying so much, practice mindfulness and consider whether your worries are based on reality or assumptions."
+  - text: "If your mind is always filled with worries, writing them down and addressing them one by one can help sort through them."
+  - text: "Controlling worry is challenging, but setting aside specific 'worry time' each day to think about your concerns can help contain them."
+  - text: "Constant worry can be overwhelming. If it's affecting your life, it may be helpful to speak with a therapist for strategies to manage these feelings."
+  utter_developing_self_compassion:
+  - text: "Being hard on yourself can be damaging. Try to treat yourself with the same kindness and understanding you would offer to a friend."
+  - text: "Developing self-compassion involves recognizing your common humanity, being mindful of your critical thoughts, and practicing self-kindness."
+  - text: "Constant self-criticism can be a barrier to happiness. Try to challenge negative thoughts about yourself with positive affirmations."
+  - text: "Lacking self-compassion is common, but learning to be kinder to yourself can improve your overall well-being. Start with acknowledging and celebrating your successes."
+  - text: "To stop self-criticism, become aware of your inner critic and consciously replace critical thoughts with more compassionate and supportive messages."
+  utter_farewells:
+  - text: "Goodbye! If you have more questions later, feel free to ask."
+  - text: "See you later! Don't hesitate to reach out if you need more help."
+  - text: "Bye! Have a great day!"
+  - text: "Talk to you later! Always here if you need assistance."
+  - text: "Sure, feel free to return anytime you need assistance. Take care!"
+  utter_small_talk:
+  - text: "I'm just a chatbot, but I'm functioning well! How can I assist you?"
+  - text: "Not much, I'm here to help you. What can I do for you?"
+  - text: "I'm a chatbot, so I don't experience feelings, but I'm here to help you. What do you need?"
+  - text: "I can't experience weather, but I hope it's pleasant for you! How can I assist you?"
+  - text: "Yes, I'm a chatbot designed to help you. How can I be of service?"
+  utter_providing_information:
+  - text: "Sure, I can help with that. What information are you looking for?"
+  - text: "I'd be happy to provide information. What do you need to know?"
+  - text: "Of course, let me know what specific details you're seeking."
+  - text: "I'm here to help. What information are you looking for?"
+  - text: "Tell me what you need, and I'll do my best to provide the right information."
+  utter_responding_to_thanks:
+  - text: "You're welcome! If you have any more questions, feel free to ask."
+  - text: "No problem at all! Happy to help if you need anything else."
+  - text: "Glad I could assist! Don't hesitate to reach out if you need more help."
+  - text: "Happy to hear that was helpful! Let me know if there's anything else I can do for you."
+  - text: "You're welcome! Always here to provide assistance when needed."
+  utter_responding_to_apologies:
+  - text: "No worries at all! Is there anything else I can help you with?"
+  - text: "That's okay! Let me know how I can assist you further."
+  - text: "Apology accepted. How can I help you now?"
+  - text: "No problem! Everyone makes mistakes. What can I do for you now?"
+  - text: "It's all good! Do you need help with anything else?"
+  utter_asking_for_help:
+  - text: "Of course, I'm here to help. What do you need assistance with?"
+  - text: "I'd be happy to assist you. Please let me know what you need help with."
+  - text: "Sure, I'm here for you. What can I do to assist?"
+  - text: "Absolutely, I can help. What specifically do you need assistance with?"
+  - text: "Certainly! What kind of support are you looking for?"
+  utter_expressing_confusion:
+  - text: "Let me try to explain it in a different way. What part didn't you understand?"
+  - text: "I'll be happy to explain it again. What part would you like me to clarify?"
+  - text: "No problem, let's go over it once more. What specifically is confusing to you?"
+  - text: "I can see how that might be confusing. Let me break it down for you."
+  - text: "Sure, I can clarify that. Which part would you like me to elaborate on?"
+  utter_expressing_satisfaction:
+  - text: "I'm glad to hear that! If there's anything else I can do for you, just let me know."
+  - text: "That's great to hear! Don't hesitate to reach out if you need more assistance."
+  - text: "I'm pleased to know I could help. Feel free to ask if you have more questions."
+  - text: "Wonderful! I'm here to help, so just shout if you need anything else."
+  - text: "That's good to know. Remember, I'm always here if you require further assistance."
+  utter_handling_complaints:
+  - text: "I'm sorry to hear that. Can you tell me more about what's wrong so I can try to fix it?"
+  - text: "I apologize for the inconvenience. Please let me know how I can make it right."
+  - text: "Your feedback is important. Please share more details about your complaint so I can assist better."
+  - text: "I understand your dissatisfaction and I'm here to help. What can I do to improve your experience?"
+  - text: "I'm sorry that you're disappointed. Let's see how we can address this issue to meet your expectations."
+  utter_making_suggestions:
+  - text: "Certainly! Can you tell me more about what you're looking for so I can make the best recommendation?"
+  - text: "I'd be happy to suggest something. What exactly are you interested in?"
+  - text: "I have a few thoughts. Could you provide more details about your situation or needs?"
+  - text: "Sure, I can provide some suggestions. What area or topic are you seeking ideas for?"
+  - text: "I can propose some ideas. Could you please specify what you're looking for?"
+  utter_inquiring_about_services:
+  - text: "I offer a variety of services including providing information, answering queries, and assisting with specific tasks. How can I help you today?"
+  - text: "My services range from answering questions to assisting with specific tasks and providing recommendations. What are you looking for?"
+  - text: "I'm here to help with a wide range of inquiries and tasks. Let me know what you need, and I'll do my best to assist you."
+  - text: "I can provide information, answer questions, and assist with several tasks. What specific service do you require?"
+  - text: "My capabilities include providing assistance with inquiries, tasks, and general guidance. Feel free to ask if you have a specific request."
+  utter_seeking_opinions:
+  - text: "As a chatbot, I don't form personal opinions, but I can provide information or common perspectives on the topic. What would you like to know?"
+  - text: "I'm here to provide information rather than personal opinions. However, I can share general insights or facts on the topic. What are you interested in?"
+  - text: "While I don't have personal thoughts, I can offer information or prevailing viewpoints on the subject. What specific information are you seeking?"
+  - text: "I can provide information or general views on the matter. Let me know what specific aspects you're interested in learning about."
+  - text: "My role is to assist with information rather than personal opinions. I can share facts or commonly held views on the topic. What would you like to know?"
+  utter_expressing_gratitude:
+  - text: "You're very welcome! I'm glad I could help. If you have any more questions, just let me know."
+  - text: "I'm happy to have been of help. Don't hesitate to reach out if you need anything else."
+  - text: "It's my pleasure to assist you. If there's anything more you need, feel free to ask."
+  - text: "I'm glad to hear that I was able to help you. Let me know if there's anything else I can do for you."
+  - text: "You're welcome! I'm here to support you, so feel free to contact me anytime you need assistance."
+  utter_requesting_feedback:
+  - text: "As a chatbot, I'm not able to assess personal performance, but I can provide guidance or information on specific topics. Is there something specific you want to know?"
+  - text: "I can't offer personal feedback, but if you have questions about a particular area or topic, I can provide relevant information or guidance."
+  - text: "My capabilities are more informational than evaluative. However, I can help answer any specific questions you have about a topic."
+  - text: "I'm not equipped to assess personal progress, but I can assist with information or guidance on topics you're interested in. Feel free to ask!"
+  - text: "While I can't evaluate your performance, I can certainly help with information or guidance on areas you're working on. What do you need help with?"
+  utter_general_inquiries:
+  - text: "I'm a versatile chatbot designed to assist with a wide range of inquiries, provide information, and help with various tasks. How can I assist you today?"
+  - text: "As a chatbot, I have various features including answering questions, providing recommendations, and assisting with specific tasks. What do you need help with?"
+  - text: "My functions include responding to inquiries, offering assistance on various topics, and facilitating user interactions with information and guidance."
+  - text: "I can assist you by providing information, answering questions, and helping with a variety of tasks. Feel free to ask me anything."
+  - text: "I'm a general-purpose chatbot equipped to handle a variety of tasks and inquiries. I'm here to provide information and assistance as needed."
+  utter_clarifying_questions:
+  - text: "Certainly, I'd be happy to explain in more detail. What specific aspect would you like more information on?"
+  - text: "Sure, let me provide more information on that topic. What details are you interested in?"
+  - text: "I can elaborate on that. Which part would you like me to expand upon?"
+  - text: "Absolutely, I can provide more specifics. What particular information are you seeking?"
+  - text: "I'll give you more detailed information. Could you specify what exactly you're looking for?"
+  utter_offering_assistance:
+  - text: "I'm here to help. What task do you need assistance with?"
+  - text: "Sure, I can assist you. What issue are you trying to solve?"
+  - text: "I'd be glad to offer assistance. Can you tell me more about the issue you're facing?"
+  - text: "Let's figure this out together. What problem do you need help with?"
+  - text: "I'm ready to support you. What specific problem are you dealing with?"
+  utter_handling_user_frustration:
+  - text: "I understand that can be frustrating. Let's try to address it together. How can I assist you further?"
+  - text: "I'm sorry to hear that you're upset. I'm here to help, so please let me know what I can do for you."
+  - text: "I apologize for any inconvenience. Let's see if we can find a solution together. Can you provide more details?"
+  - text: "I hear your concerns. Please let me know how I can make this experience better for you."
+  - text: "It's understandable to feel annoyed. I'm here to help, so feel free to tell me more about what you need."
+  utter_expressing_empathy:
+  - text: "I'm here to listen. I'm sorry to hear that you're going through a tough time. How can I assist you?"
+  - text: "It's okay to feel down. If there's anything I can do to help, please let me know."
+  - text: "Everyone has bad days. I'm here for you. Is there anything specific I can help with?"
+  - text: "Feeling stressed and overwhelmed is challenging. Let's see if there's something I can do to help alleviate some of your stress."
+  - text: "Dealing with a lot can be overwhelming. I'm here to support you. Feel free to share more if it helps."
+  utter_inquiring_about_time:
+  - text: "I'm sorry, I don't have the current time. Please check your device's clock."
+  - text: "I can't provide the current time. You might want to look at a nearby clock or your phone."
+  - text: "Unfortunately, I don't have access to real-time data. Please use a clock or your phone to check the time."
+  - text: "I'm unable to tell the time. Check your computer or phone for the most accurate time."
+  - text: "I don't have the capability to tell time. Your phone or another device can give you the current time."
+  utter_responding_to_jokes:
+  - text: "Why don't scientists trust atoms? Because they make up everything!"
+  - text: "What do you call a belt made out of watches? A waist of time!"
+  - text: "I'd tell you a chemistry joke, but I know I wouldn't get a reaction."
+  - text: "What do you call fake spaghetti? An impasta!"
+  - text: "Why did the photo go to jail? Because it was framed!"
+  utter_providing_directions:
+  - text: "I'm not able to provide directions. It's best to use a navigation app on your phone."
+  - text: "I can't assist with physical directions. Please use a map or navigation app for the most accurate route."
+  - text: "For directions, your best option is a dedicated navigation app on your smartphone or device."
+  - text: "Unfortunately, I don't have the capability to offer navigation help. A mapping app would be your best bet."
+  - text: "I'm not equipped to provide directions. Using a GPS or mapping app on your phone will give you accurate guidance."
+  utter_handling_user_errors:
+  - text: "No problem! Go ahead and enter the correct information."
+  - text: "That's okay, mistakes happen. Please try again."
+  - text: "No worries, you can correct it. What would you like to do next?"
+  - text: "It's alright, simply enter the correct information when you're ready."
+  - text: "Everyone makes mistakes. Feel free to make the necessary correction."
+  utter_responding_to_user_excitement:
+  - text: "That sounds exciting! I'm glad to hear you're enthusiastic."
+  - text: "It's great to see you so excited! If there's any way I can add to your experience, let me know."
+  - text: "Your excitement is contagious! If you need any assistance regarding this, I'm here."
+  - text: "Being thrilled is a wonderful feeling! Enjoy every moment of it."
+  - text: "That is indeed good news! If there's anything else you'd like to share or ask, feel free."
+  utter_inquiring_about_daily_activities:
+  - text: "How about trying something creative like drawing, writing, or cooking a new recipe?"
+  - text: "If you're feeling bored, maybe take a walk outside, read a book, or explore a new hobby."
+  - text: "For a daily activity, you could organize a part of your home, try a workout routine, or start learning something new online."
+  - text: "Ideas for today include trying out a new café, visiting a local museum, or having a movie marathon of your favorite genre."
+  - text: "A good thing to do right now could be calling a friend or family member for a chat, or maybe even starting a DIY project at home."
+  utter_responding_to_user_curiosity:
+  - text: "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old!"
+  - text: "Here's a fun fact: Octopuses have three hearts. Two pump blood to the gills, while the third pumps it to the rest of the body."
+  - text: "Something interesting: The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes."
+  - text: "An intriguing piece of information: A group of flamingos is called a 'flamboyance'."
+  - text: "Did you know that a single strand of spaghetti is called a 'spaghetto'? It's an interesting fact about Italian food terminology!"
+  utter_offering_comfort:
+  - text: "I'm sorry to hear that you're feeling this way. Remember, it's okay to have tough days. Is there anything in particular that's bothering you?"
+  - text: "It's perfectly normal to have hard days. Sometimes taking a break or doing something you enjoy can help lift your spirits."
+  - text: "Everyone needs cheering up sometimes. Maybe listening to your favorite music or watching a funny video could help."
+  - text: "Tough days are a part of life, but they don't last forever. Try to take some time for yourself, maybe engage in a relaxing activity."
+  - text: "I understand that you're not in a good mood. Sometimes, just talking about what's on your mind can help. Feel free to share if that would help."
+  utter_celebrating_success:
+  - text: "Congratulations on achieving your goal! That's a significant accomplishment and you should be proud."
+  - text: "That's fantastic news about your promotion! Well done on your hard work paying off."
+  - text: "Congratulations on graduating! It's a big milestone, and you've worked hard for it."
+  - text: "Winning a competition is no small feat. Congratulations on your achievement!"
+  - text: "Completing a big project is always a cause for celebration. Great job on seeing it through to the end!"
+  utter_seeking_relationship_advice:
+  - text: "Improving a relationship often involves open communication and understanding each other's needs. Have you tried discussing your concerns with your partner?"
+  - text: "Every relationship has its ups and downs. It's important to work on issues together and consider seeking counseling if needed."
+  - text: "If your relationship is struggling, consider whether you're both willing to put in the effort to make improvements. Professional guidance can also be beneficial."
+  - text: "Addressing relationship issues can start with honest communication and empathy. It might also help to set aside time for each other and reconnect."
+  - text: "Troubles with a partner can be complex. Try to express your feelings calmly and listen to your partner's perspective. Seeking mutual understanding is key."
+  utter_building_strong_relationships:
+  - text: "Building a strong relationship involves trust, communication, respect, and mutual support. Also, don't forget to appreciate and celebrate each other."
+  - text: "A lasting relationship is often based on mutual respect, open communication, and the ability to resolve conflicts in a healthy way."
+  - text: "For a healthy relationship, it's important to maintain your individuality, support each other's goals, and keep the lines of communication open."
+  - text: "Strengthening your relationship can involve spending quality time together, showing appreciation, and actively listening to each other."
+  - text: "Maintaining a good relationship requires effort from both partners. Regularly express your love, appreciation, and work together to overcome challenges."
+  utter_dealing_with_breakups:
+  - text: "Getting over a breakup takes time. Allow yourself to grieve, reach out to friends and family for support, and engage in activities you enjoy."
+  - text: "Feeling lost after a breakup is normal. Try to focus on self-care, surround yourself with supportive people, and give yourself time to heal."
+  - text: "Coping with the end of a relationship involves processing your emotions, possibly seeking counseling, and gradually rebuilding your routine and interests."
+  - text: "It's normal to struggle after a breakup. Consider seeking support from friends, family, or a counselor, and remember that healing is a gradual process."
+  - text: "Post-breakup, focus on taking care of yourself. Engage in activities that bring you joy and comfort, and don't rush into another relationship until you're ready."
+  utter_navigating_long_distance_relationships:
+  - text: "Making a long-distance relationship work requires trust, communication, and regular virtual meetups. Plan visits whenever possible to maintain your connection."
+  - text: "In a long-distance relationship, keep communication open, schedule regular video calls, and plan future visits to keep the relationship strong."
+  - text: "Managing a relationship from afar involves setting clear expectations, finding creative ways to stay connected, and building a strong emotional bond."
+  - text: "For long-distance relationship advice, prioritize communication, stay involved in each other's lives, and try to see each other in person when you can."
+  - text: "Keeping the spark alive in a long-distance relationship can involve sending each other thoughtful messages, planning virtual dates, and sharing daily experiences."
+  utter_communicating_in_relationships:
+  - text: "Effective communication involves being open, honest, and clear. Try to express your feelings calmly and listen actively to your partner."
+  - text: "Addressing communication issues often means breaking down barriers and ensuring both partners feel heard and understood."
+  - text: "The key to effective communication is active listening, empathy, and avoiding blame. Express your needs and feelings clearly and respectfully."
+  - text: "If you struggle to express your feelings, consider writing them down first or practicing what you want to say in a calm environment."
+  - text: "To improve communication, schedule regular times to talk uninterrupted, discuss one topic at a time, and show appreciation for each other's viewpoints."
+  utter_trust_issues_in_relationships:
+  - text: "Dealing with trust issues involves understanding the reasons behind the mistrust and working together to rebuild trust through consistent and reliable actions."
+  - text: "Struggling with trusting your partner can be difficult. Open communication and counseling can help address underlying issues and rebuild trust."
+  - text: "Building trust in a relationship requires time, honesty, and commitment. Be transparent with each other and keep your promises."
+  - text: "If your partner doesn't trust you, try to understand their concerns and demonstrate trustworthiness through your actions and consistency."
+  - text: "A problem with trust can be a major challenge. Consider working with a therapist to address the issues and develop strategies to rebuild trust."
+  utter_resolving_conflicts:
+  - text: "Resolving conflicts often involves understanding each other's perspectives, staying calm, and finding a compromise that works for both."
+  - text: "If you argue a lot, try to understand the root causes of the arguments. Communication, patience, and sometimes professional counseling can help."
+  - text: "To resolve arguments, listen actively, avoid blaming, and focus on finding solutions rather than winning the argument."
+  - text: "Handling disagreements involves staying respectful, focusing on the issue at hand, and being willing to apologize and forgive."
+  - text: "If you're struggling to get past fights, consider taking a break to cool down before discussing the issue, or seek help from a relationship counselor."
+  utter_managing_relationship_expectations:
+  - text: "Realistic expectations involve understanding that no relationship is perfect, communication is key, and both partners have individual needs and limitations."
+  - text: "If you think your expectations might be too high, consider if they're based on reality or influenced by external factors like media portrayal of relationships."
+  - text: "Setting healthy relationship expectations includes discussing your needs and boundaries openly and understanding that compromise is often necessary."
+  - text: "Managing expectations in a relationship requires open and honest discussion about what each partner can realistically provide and accept."
+  - text: "To determine if your expectations are reasonable, consider if they are fair, achievable, and mutually agreed upon by both partners."
+  utter_starting_new_relationships:
+  - text: "Starting a new relationship begins with getting to know the person. Show genuine interest in them and share about yourself too."
+  - text: "If you're interested in someone, consider asking them out in a respectful and straightforward manner. Be yourself and make your intentions clear."
+  - text: "Tips for beginning a relationship include open communication, taking things slow, and ensuring you're both on the same page about your intentions."
+  - text: "When asking someone out, choose a comfortable and casual setting. Be clear and respectful, and remember that it's okay regardless of their response."
+  - text: "In starting a romantic relationship, it's important to build a foundation of friendship, trust, and mutual respect."
+  utter_relationship_boundaries:
+  - text: "Setting boundaries involves communicating your needs and limits clearly and respectfully. Discuss with your partner and listen to their boundaries as well."
+  - text: "Establishing clearer boundaries requires an open conversation about each other's comfort levels, needs, and expectations."
+  - text: "Healthy relationship boundaries include respecting each other's privacy, independence, and having mutual consent on important matters."
+  - text: "When setting boundaries, be clear about what is acceptable and what isn't, and be open to hearing your partner's boundaries too."
+  - text: "To communicate your boundaries, choose a calm time to discuss. Be assertive yet respectful, and explain why these boundaries are important to you."
+  utter_relationship_anxiety:
+  - text: "Feeling anxious in a relationship can stem from various factors. It's important to communicate your feelings with your partner and potentially seek counseling."
+  - text: "Dealing with anxiety in a relationship may involve addressing any underlying trust or communication issues. Open dialogue with your partner is key."
+  - text: "If your relationship makes you nervous, explore the reasons behind this anxiety. Are these feelings based on current issues or past experiences?"
+  - text: "Handling relationship anxiety involves understanding the source of the anxiety, communicating your concerns, and possibly seeking professional help."
+  - text: "Constant worry about your relationship could indicate deeper issues. Reflect on your insecurities and consider discussing them with a therapist."
+  utter_navigating_relationship_conflicts:
+  - text: "Dealing with conflicts involves effective communication, understanding each other's viewpoints, and finding a middle ground where both feel heard."
+  - text: "If you're constantly fighting, try to identify underlying issues. Couples therapy might help in understanding and resolving these conflicts."
+  - text: "Resolving conflicts with your partner requires patience, empathy, and sometimes, agreeing to disagree on certain matters."
+  - text: "If small things lead to arguments, it might indicate unresolved issues. Discuss openly and try to understand each other's triggers and boundaries."
+  - text: "Effective strategies for conflict resolution include staying calm during discussions, actively listening, and avoiding accusatory language."
+  utter_rekindling_romance:
+  - text: "Rekindling romance can start with revisiting the activities you both enjoyed at the beginning of your relationship and creating new shared experiences."
+  - text: "If your relationship feels stale, try introducing new activities you can do together, plan regular date nights, or take a trip to somewhere new."
+  - text: "Bringing back the spark might involve small gestures of love, like surprise dates, thoughtful gifts, or simply spending quality time together."
+  - text: "For reigniting romance, consider expressing your affection more frequently, exploring new hobbies together, or even attending couples workshops."
+  - text: "Adding excitement to your relationship can be as simple as breaking the routine. Try new things together, whether it's a cooking class, hiking, or dance lessons."
+  utter_managing_distance_in_relationships:
+  - text: "Long-distance relationships thrive on trust and communication. Regular video calls, texts, and planning future visits can help maintain your bond."
+  - text: "If you and your partner will be apart, make an effort to communicate consistently, share your experiences, and plan when you'll see each other next."
+  - text: "A successful long-distance relationship often requires setting clear expectations, finding ways to stay emotionally connected, and having a plan for eventually living closer."
+  - text: "When facing distance in your relationship, try to keep each other updated on your daily lives, send surprise gifts, and maintain a positive outlook on your future together."
+  - text: "Keeping a relationship strong across distance means making extra effort to communicate, plan virtual dates, and keep reminding each other of your commitment."
+  utter_dealing_with_insecurity_in_relationships:
+  - text: "To deal with insecurity, communicate your feelings openly with your partner, work on building your self-esteem, and consider the root cause of these feelings."
+  - text: "Feeling insecure can stem from personal fears or past experiences. Discuss your feelings with your partner and try to resolve them together."
+  - text: "If your partner's behavior makes you feel insecure, express your concerns clearly and calmly. Understanding each other's perspectives is key."
+  - text: "Overcoming insecurity involves trust, open communication, and reassurance from both partners. Focus on your strengths and the positives in your relationship."
+  - text: "Dealing with jealousy and insecurity requires self-reflection, open dialogue with your partner, and possibly seeking help from a therapist."
+  utter_navigating_relationship_transitions:
+  - text: "Transitioning from friends to a romantic relationship can be challenging. Communicate openly about your expectations and take things slowly."
+  - text: "Handling changes in a relationship involves open communication, flexibility, and patience. Discuss how you both feel about the changes."
+  - text: "If your relationship dynamic is changing, talk about it openly and decide together how you want to navigate these changes."
+  - text: "Moving from dating to a serious relationship is a significant step. Ensure you're both on the same page about your goals and expectations."
+  - text: "Adapting to a new phase in your relationship requires understanding, mutual support, and often, redefining your relationship boundaries and expectations."
+  utter_expressing_concern:
+  - text: "I'm sorry to hear that you're feeling this way. It's okay to feel down sometimes, but if it's persistent, talking about it can help. What do you think is contributing to these feelings?"
+  - text: "Feeling unlike yourself can be disconcerting. It's important to explore these feelings. Can you tell me a bit more about what's been going on?"
+  - text: "Persistent sadness can be really tough to deal with. Have there been any specific events that have led to you feeling this way?"
+  - text: "It's concerning to hear you've been feeling unhappy. It's important to take your emotional health seriously. Would you like to share more about what's been happening?"
+  - text: "Struggling with low feelings can be a heavy burden. Remember, it's okay to seek help. What's been happening recently that might be contributing to this?"
+  utter_offering_support:
+  - text: "Coping with tough times can be challenging, but you're not alone. Let's try to take things one step at a time. What's been the most overwhelming part for you?"
+  - text: "Feeling overwhelmed can make things seem insurmountable. Let's try to break things down into smaller, more manageable parts. What is the most immediate thing that's on your mind?"
+  - text: "Dealing with stress can be overwhelming, but there are strategies that can help. Have you tried any relaxation or mindfulness techniques?"
+  - text: "Managing emotions can be tough, especially during stressful times. It might help to talk about these feelings. What emotions are you finding the hardest to manage?"
+  - text: "When everything feels too much, it's important to pause and breathe. Let's try to focus on one thing at a time. What's the most pressing issue you're facing right now?"
+  utter_encouraging_self_care:
+  - text: "Neglecting your own needs can take a toll on your health. It's important to find even small ways to care for yourself. What's one thing you enjoy that you can do for yourself today?"
+  - text: "Self-care is crucial, especially during busy times. It doesn't have to be time-consuming; even a few minutes can make a difference. What quick self-care activity could you incorporate into your day?"
+  - text: "Forgetting to take care of yourself is easy to do, but your well-being is important. What are some small self-care steps you think you could start with?"
+  - text: "Being busy can make self-care challenging, but your health is important. Try to identify little moments in the day for self-care. Maybe a short walk or a few minutes of quiet time?"
+  - text: "Prioritizing your wellbeing is not just important, it's necessary. Let's think about small, manageable ways you can start to put your health first. What's one small change you can make?"
+  utter_discussing_depression_symptoms:
+  - text: "Depression can manifest in many ways, including persistent sadness, loss of interest in activities, and feelings of hopelessness. It's important to speak with a professional for an accurate diagnosis."
+  - text: "Common signs of depression include prolonged feelings of sadness or emptiness, changes in sleep or appetite, and a lack of energy or motivation."
+  - text: "Feeling down for an extended period could be a sign of depression. It's important to discuss these feelings with a healthcare provider or therapist."
+  - text: "Knowing if you're depressed often requires professional evaluation, but symptoms can include persistent sadness, fatigue, and a loss of interest in everyday activities."
+  - text: "Feelings of hopelessness and a lack of energy are common symptoms of depression. I recommend talking to a mental health professional who can provide support and guidance."
+  utter_addressing_stress_management:
+  - text: "Managing stress often involves identifying stressors and finding healthy ways to cope, such as through exercise, relaxation techniques, or hobbies."
+  - text: "To manage stress better, consider practicing mindfulness, taking regular breaks, and ensuring a healthy work-life balance."
+  - text: "High stress levels can impact your health. It's important to find stress-reducing activities that work for you, like yoga, reading, or spending time in nature."
+  - text: "Chronic stress and anxiety can be alleviated by regular physical activity, maintaining social connections, and setting aside time for relaxation."
+  - text: "For stress relief, try incorporating relaxation techniques into your routine, such as deep breathing exercises, meditation, or gentle exercise like walking."
+  utter_exploring_therapy_options:
+  - text: "Considering therapy is a positive step towards self-care. The right kind of therapy depends on your individual needs and goals. A consultation with a therapist can help determine the best approach."
+  - text: "There are various types of therapy, like cognitive-behavioral therapy, talk therapy, or group therapy. A mental health professional can help you decide which is suitable for your situation."
+  - text: "Starting therapy involves finding a therapist you feel comfortable with. You can look for therapists online or ask for referrals from your healthcare provider."
+  - text: "Getting counseling can be a great way to work through personal challenges. It provides a safe space to explore your feelings and develop coping strategies."
+  - text: "In therapy, you can expect to discuss your thoughts and feelings, work through challenges, and develop strategies to manage your mental health. It's a collaborative and confidential process."
+  utter_managing_relationship_stress:
+  - text: "Relationships can be a source of stress. It's important to communicate openly with your partner about your feelings and seek mutual solutions."
+  - text: "Dealing with relationship stress involves identifying the causes and working together with your partner to address them. Counseling can also be beneficial."
+  - text: "If your partner is causing you stress, try to express your concerns calmly and clearly. It's important for both partners to feel heard and respected."
+  - text: "When relationship issues affect your mental health, it's crucial to address these problems directly. Consider couples therapy as a space to work through these challenges."
+  - text: "To manage stress in your relationship, ensure you have time for self-care and individual interests. Healthy relationships allow space for personal growth and relaxation."
+  utter_encouraging_open_discussion:
+  - text: "It's completely okay to feel unsure about where to start. Take your time, and remember, this is a safe space to share at your own pace."
+  - text: "Opening up can be challenging, but you're in a safe space here. Feel free to share as little or as much as you're comfortable with."
+  - text: "You don't have to know exactly what to say. Just start with what's on your mind right now or what's been bothering you lately."
+  - text: "Talking about feelings can be difficult, but it's also a brave step towards understanding yourself better. I'm here to listen whenever you're ready."
+  - text: "Not being used to discussing problems is common, but every step you take in sharing is progress. How about we start with how your day went?"
+  utter_validating_user_emotions:
+  - text: "Feeling overwhelmed is a natural response to stress. It's important to recognize these feelings and find healthy ways to cope."
+  - text: "Getting angry over small things can happen when we're under a lot of stress or feeling overwhelmed. Recognizing this is a great first step."
+  - text: "Feeling sad without knowing why can be frustrating, but it's a common experience. Sometimes our emotions are influenced by factors we're not immediately aware of."
+  - text: "Feeling anxious can be challenging. Remember, it's okay to feel this way, and there are strategies that can help in managing anxiety."
+  - text: "It's okay to feel uncertain about your emotions. Sometimes, just talking about what you're going through can bring some clarity."
+  utter_guiding_through_difficulties:
+  - text: "When things feel hard, it's important to take a step back and focus on one thing at a time. Let's try to tackle these challenges together."
+  - text: "Struggling with mental health is a tough journey, but you're not alone. Let's explore some steps or resources that might help."
+  - text: "Handling difficult situations can feel daunting. Would you like to talk more about what's happening and see how we can address it?"
+  - text: "Feeling overwhelmed by life's challenges is understandable. It might help to break down these challenges into smaller, more manageable tasks."
+  - text: "Not knowing what to do next can be unsettling. Sometimes, just discussing your thoughts and options can bring some clarity and direction."
+  utter_offering_comfort_and_reassurance:
+  - text: "Feeling scared about the future is a common concern, especially during uncertain times. Remember, it's okay to take things day by day."
+  - text: "Hopelessness can be a heavy burden. Let's talk about these feelings and explore what might help bring even a small sense of hope."
+  - text: "When nothing feels enjoyable, it can be a sign of underlying emotional exhaustion. It's important to acknowledge these feelings and seek support."
+  - text: "Constant worry can be draining. Let's explore some techniques or practices that might help in managing these worries."
+  - text: "Feeling like giving up can be overwhelming. It's important to recognize your strength in reaching out and to remember that support is available."
+  utter_providing_motivation:
+  - text: "Maintaining motivation can be challenging. Setting small, achievable goals and celebrating your progress can help boost motivation."
+  - text: "One way to keep yourself motivated is by creating a routine that includes activities you enjoy and breaks for relaxation."
+  - text: "Losing motivation is common, especially during stressful times. Try to focus on what you've already accomplished and what you're working towards."
+  - text: "Staying focused can be easier with a clear plan. Break down your tasks into smaller steps and prioritize them to maintain focus."
+  - text: "Finding motivation often starts with understanding why you want to achieve certain goals. Reflect on your reasons and the positive outcomes of your efforts."
+  utter_coping_with_change:
+  - text: "Dealing with change can be difficult. It's important to allow yourself time to adjust and to seek support from friends, family, or professionals."
+  - text: "Adapting to big life changes involves taking things one step at a time and focusing on the aspects you can control."
+  - text: "Feeling anxious about change is a natural reaction. Try to view change as an opportunity for growth and new experiences."
+  - text: "It's common to find it hard to accept change. Consider exploring your feelings about the change and discussing them with someone you trust."
+  - text: "Change can be challenging, but it's also a part of life. Engaging in activities that ground you and provide comfort can help in coping."
+  utter_managing_emotional_overwhelm:
+  - text: "Feeling overwhelmed by emotions is a sign that you need to pause and care for yourself. Mindfulness and breathing exercises can help in managing intense emotions."
+  - text: "When emotions are intense, it's important to find healthy outlets, like talking to someone, writing in a journal, or engaging in physical activity."
+  - text: "Experiencing strong emotions can be overwhelming. Try to identify one emotion at a time and understand what might be triggering it."
+  - text: "Intense emotions can feel consuming. Consider speaking with a therapist who can provide strategies to cope with these feelings."
+  - text: "Handling a multitude of feelings can be challenging. Focus on taking things one moment at a time and seeking support when needed."
+  utter_navigating_relationships:
+  - text: "Relationship troubles can be complex. Open and honest communication is often key to resolving issues."
+  - text: "Improving communication can start with actively listening to your partner and expressing your feelings calmly and clearly."
+  - text: "If your relationship is struggling, consider whether external support, like couples therapy, might help."
+  - text: "Assessing the health of a relationship involves considering respect, communication, support, and mutual satisfaction."
+  - text: "Deciding to end a relationship is significant. Reflect on your needs, feelings, and whether the relationship aligns with your life goals."
+  utter_parenting_challenges:
+  - text: "Parenting can indeed be overwhelming. Remember, it's okay to ask for help or take a break when you need it."
+  - text: "Being a better parent often involves listening to your child, understanding their needs, and being present in their lives."
+  - text: "Struggling with parenting is common. Seeking advice from other parents or reading parenting books might offer some helpful strategies."
+  - text: "Dealing with difficult behavior is challenging. Consistency, clear communication, and setting boundaries are important."
+  - text: "Feeling like you're failing is a sign that you care deeply. Every parent faces challenges, and it's okay to not be perfect."
+  utter_balancing_work_life:
+  - text: "Balancing work and life can be challenging. It's important to set boundaries and prioritize your time."
+  - text: "Managing work-life balance often involves planning, delegating tasks when possible, and ensuring you have downtime."
+  - text: "If your job is taking over your life, consider speaking to your employer about flexibility or workload adjustments."
+  - text: "Having no time for yourself can lead to burnout. It's crucial to schedule time for relaxation and personal activities."
+  utter_understanding_depression:
+  - text: "Depression is a mood disorder characterized by persistent feelings of sadness, loss of interest, and a range of emotional and physical symptoms."
+  - text: "Signs of depression include prolonged sadness, loss of interest in activities, changes in appetite or sleep, fatigue, and feelings of worthlessness."
+  - text: "Depression can feel like an overwhelming sense of sadness, lack of motivation, difficulty in experiencing pleasure, and a general sense of hopelessness."
+  - text: "Differentiating sadness from depression is important. While sadness is a normal emotion, depression is deeper and more persistent, often affecting daily functioning."
+  utter_dealing_with_depression:
+  - text: "Coping with depression often involves a combination of therapy, medication, lifestyle changes, and support from loved ones."
+  - text: "If you're struggling with depression, seeking help from a mental health professional is a crucial step. They can guide you through various treatment options."
+  - text: "Overcoming depression usually requires professional guidance. Therapies like Cognitive Behavioral Therapy (CBT) can be particularly effective."
+  - text: "Effective treatments for depression vary and can include therapy, medication, lifestyle changes, and support groups."
+  - text: "While managing some aspects of depression alone is possible, such as exercise and maintaining a healthy routine, professional guidance is often necessary."
+  utter_supporting_depressed_individual:
+  - text: "Supporting someone with depression involves being there for them, listening without judgment, and encouraging them to seek professional help."
+  - text: "If your friend is depressed, let them know you're there for them. Encourage them to talk about their feelings and seek professional support."
+  - text: "Supporting a family member with depression means offering emotional support and understanding, and helping them find resources for professional help."
+  - text: "When talking to someone who's depressed, it's important to be empathetic and non-judgmental. Encourage them to share their feelings and experiences."
+  - text: "Helping a partner with depression involves patience, understanding, and support. Encourage open communication and seek professional advice together."
+  utter_lifestyle_changes_for_depression:
+  - text: "Certain lifestyle changes can help manage depression, such as regular exercise, a healthy diet, sufficient sleep, and stress-reducing activities."
+  - text: "Exercise can be very beneficial for depression. It releases endorphins, which can improve mood and reduce stress."
+  - text: "Diet can impact depression. A balanced diet rich in fruits, vegetables, whole grains, and lean protein can contribute to better mental health."
+  - text: "Sleep is crucial for managing depression. Poor sleep can exacerbate symptoms, so establishing a regular sleep routine is important."
+  - text: "Mindfulness practices, such as meditation, can help manage depression by reducing stress and improving emotional regulation."
+  utter_depression_and_relationships:
+  - text: "Depression can impact relationships, often causing withdrawal or changes in communication. It's important to communicate openly with your loved ones about what you're experiencing."
+  - text: "Maintaining relationships while dealing with depression can be challenging. Try to be honest with your loved ones about your feelings and needs."
+  - text: "Depression might lead you to push people away, often as a way to protect them or yourself. It's important to be aware of this tendency and discuss it with your close ones."
+  - text: "Feeling like a burden is a common concern in depression. Remember, your loved ones care about you and want to support you. Sharing your feelings with them can be helpful."
+  - text: "Explaining depression to your partner can involve discussing how it affects your thoughts, feelings, and behaviors, and what support you might need from them."
+  utter_depression_and_self_care:
+  - text: "Self-care is crucial when dealing with depression. Start with small steps, like maintaining basic hygiene, eating nutritious foods, and getting some fresh air."
+  - text: "Self-care activities for depression can include light exercise, engaging in a hobby, or practicing relaxation techniques."
+  - text: "When self-care feels hard, focus on small, achievable tasks. Sometimes, just getting out of bed and getting dressed can be a good start."
+  - text: "It's common to find self-care challenging during depression. Try to set simple, daily goals for yourself and celebrate the small victories."
+  - text: "Tips for self-care during depression include staying connected with loved ones, setting a routine, and avoiding being hard on yourself for struggling with these tasks."
+  utter_depression_recovery_journey:
+  - text: "Recovery from depression varies for each individual. It often involves gradual improvement in mood and functioning, and learning coping strategies."
+  - text: "The time it takes to recover from depression can differ greatly from person to person. It's a process that requires patience and persistence."
+  - text: "Full recovery from depression is possible for many people, though it may require ongoing management of symptoms and self-care strategies."
+  - text: "A slow recovery from depression is not uncommon. Healing is a process that can take time, and it's important to be patient with yourself."
+  - text: "Recovering from depression can involve several stages, including acknowledging the problem, seeking help, learning coping strategies, and gradual improvement in symptoms."
+  utter_depression_and_work:
+  - text: "Coping with depression at work can include taking regular breaks, setting manageable daily goals, and finding someone trustworthy to talk to."
+  - text: "Deciding whether to tell your employer about your depression is a personal decision. Consider how supportive your workplace is and what accommodations you might need."
+  - text: "If depression is affecting your job performance, it might be helpful to discuss this with your employer or HR and explore possible accommodations."
+  - text: "Difficulty concentrating is a common symptom of depression. Try to prioritize tasks and break them into smaller, manageable steps."
+  - text: "Taking leave for depression depends on your workplace policies and the severity of your symptoms. Discussing this with a healthcare provider can provide documentation to support your request."
+  utter_depression_symptom_management:
+  - text: "Managing symptoms of depression often involves a combination of therapy, lifestyle changes, and sometimes medication. Addressing each symptom specifically with your healthcare provider can be helpful."
+  - text: "Lack of energy is a common symptom of depression. Regular exercise, even if it's just a short walk, and maintaining a healthy diet can help boost energy levels."
+  - text: "Feeling constantly tired can be a symptom of depression. It's important to establish a regular sleep routine and manage stress."
+  - text: "Loss of appetite can be addressed by eating small, nutritious meals throughout the day. It's important to nourish your body even when you don't feel like eating."
+  - text: "If depression is affecting your sleep, try to create a bedtime routine that promotes relaxation, such as reading or meditating before bed. Avoiding screens an hour before sleep can also help."
+  utter_depression_and_social_life:
+  - text: "Socializing can help combat depression, but it's also important to balance it with your energy levels. Engaging in small, comfortable social interactions can be a start."
+  - text: "Wanting to isolate is a common symptom of depression. Try to push yourself to maintain social contacts, even if they're just brief check-ins."
+  - text: "Not feeling like seeing anyone is normal when you're depressed. However, keeping in touch with friends, even in small ways, can be beneficial."
+  - text: "Maintaining friendships while depressed can be challenging. Be honest with your friends about how you're feeling and engage in activities that aren't too demanding."
+  - text: "Socializing can help with depression by providing support and distraction. However, it's important to choose social activities that are not overwhelming."
+  utter_depression_and_identity:
+  - text: "Feeling like you've lost your identity to depression is common. Reconnecting with old hobbies and interests can help you rediscover yourself."
+  - text: "Depression can mask your sense of self. Engaging in activities that align with your values and interests can help you feel more like yourself."
+  - text: "Finding yourself after depression involves exploring new interests, rekindling old passions, and giving yourself time to heal."
+  - text: "Not knowing who you are outside of depression is challenging. Therapy can be a helpful space to explore your identity and values."
+  - text: "Regaining your sense of self during depression is a gradual process. Celebrate small achievements and be patient with yourself."
+  utter_depression_and_daily_routine:
+  - text: "Maintaining a routine when depressed can be challenging. Start with small, manageable tasks and gradually build up to a more structured routine."
+  - text: "If following a schedule is hard, try setting just one or two priorities each day. Completing these can give you a sense of accomplishment."
+  - text: "Daily routines that can help with depression include regular sleep times, setting time for physical activity, and scheduling periods for relaxation or hobbies."
+  - text: "Struggling with everyday tasks is a common effect of depression. Break tasks into smaller steps and celebrate your accomplishments, no matter how small."
+  - text: "Setting a routine might seem impossible, but start with the basics like regular meal times and bedtime. Adding structure to your day can provide a sense of stability."
+  utter_acknowledging_self_rejection:
+  - text: "It sounds like you're being very hard on yourself. Remember, everyone has unique qualities and strengths. What do you think are yours?"
+  - text: "Putting yourself down can be a tough habit to break. It might help to start recognizing and challenging these negative thoughts about yourself."
+  - text: "Feeling worthless can be a deep-seated emotion. It's important to remember that your value does not diminish based on your thoughts or feelings."
+  - text: "Accepting yourself is a journey that takes time. It involves understanding and appreciating your own worth. What is one thing you like about yourself?"
+  - text: "Constant self-criticism can be damaging. Try to treat yourself with the same kindness and understanding that you would offer to a friend."
+  utter_overcoming_self_rejection:
+  - text: "Stopping self-hatred starts with understanding the reasons behind it and actively challenging negative thoughts about yourself."
+  - text: "One way to start accepting yourself is to focus on your positive qualities and achievements, no matter how small they may seem."
+  - text: "Being kinder to yourself involves practicing self-compassion and understanding that nobody is perfect. What's one kind thing you can do for yourself today?"
+  - text: "Steps to self-acceptance include recognizing your intrinsic worth, forgiving yourself for past mistakes, and embracing your uniqueness."
+  - text: "It's important to be gentle with yourself. Acknowledge your efforts and progress, not just your mistakes or perceived flaws."
+  utter_coping_with_self_rejection:
+  - text: "Feeling inadequate is a common struggle. Try to focus on your abilities and accomplishments instead of comparing yourself to others."
+  - text: "Disliking oneself can stem from various factors, including past experiences. It might be helpful to explore these feelings with a therapist."
+  - text: "Struggling with low self-esteem can be challenging. Remember, self-worth isn't based on external achievements or comparisons."
+  - text: "Setting unrealistically high expectations can lead to feelings of failure. Try setting more achievable, realistic goals for yourself."
+  - text: "The feeling of never being good enough is often linked to perfectionism. Remember, perfection is unattainable, and it's okay to be a work in progress."
+  utter_urgent_support_for_suicidal_thoughts:
+  - text: "This is a serious situation and it's critical to talk to someone who can provide immediate help. Please call a crisis helpline or emergency services right now. Your life is incredibly valuable and there are people who want to support you through this."
+  - text: "I hear that you're in a lot of pain right now, but it's important to keep yourself safe. Can you call emergency services or go to the nearest hospital? There are professionals who can help you through this."
+  - text: "It's great you're considering professional help. I can assist you in finding a therapist."
+  utter_post_suicidal_thoughts_support:
+  - text: "Acknowledging that you need help is a brave and important step. Talking to a mental health professional can provide you with support and strategies to cope with these thoughts."
+  - text: "Not wanting to feel suicidal anymore is a sign of your strength. Reaching out to a therapist or counselor can be very helpful in finding ways to cope and heal."
+  - text: "Getting help with suicidal thoughts is crucial. A mental health professional can offer support and work with you to develop a plan to keep you safe and address these thoughts."
+  - text: "Overcoming a desire to die is a challenging journey, but it's one that you don't have to make alone. Please consider speaking with a mental health professional who can offer guidance and support."
+  - text: "Wanting to stop thinking about suicide is an important step towards recovery. It's essential to seek help from a mental health professional who can assist you in understanding and managing these thoughts."
+
