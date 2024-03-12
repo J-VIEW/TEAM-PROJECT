@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYMENTAL</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="icon" type="image/png"   href="images/mmental_logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="validate.css">
+    <script src="formValidation.js" defer></script>
+    <script src="login.js" defer></script>
+    
+    <script type="module" src="app.js"></script>
+    <script type="module" src="index.js"></script>
+
+    <script src="modal.js" defer></script>
+
+
+  <script>
+    // Function to check if the user is logged in and open the modal
+    function checkAndOpenModal() {
+      if (!sessionStorage.getItem("userLoggedIn")) {
+        // User is not logged in, open the modal
+        openModal();
+      } else {
+        // User is logged in, redirect to the chatbot page
+        window.location.href = "/base.html";
+      }
+    }
+
+  
+    // Add event listener to the button
+    
+    document.addEventListener("DOMContentLoaded", function () {
+    var openModalButton = document.getElementById("open-modal-button");
+    if (openModalButton) {
+        openModalButton.addEventListener("click", checkAndOpenModal);
+    }
+});
+
+  </script>
+  
+  
+</head>
+<body>
+
+    <!--header section-->
+    <header >
+       <div class="logo_container">
+         <img class="logo_image" src="images/mymental_logo.png">
+         <h3 class="logo_name">
+          MYMENTAL
+         </h3>
+       </div> 
+       <nav>
+        <ul>
+           <a href="#home"><li>HOME</li></a>
+           <a href="#about"><li>ABOUT</li></a>
+           <a href="#services"><li>SERVICES</li></a>
+           <a href="#"  id="open-modal-button" onclick="checkAndOpenModal()"><li>CHATBOT</li></a>
+        </ul>
+       </nav>
+
+        <button type="button" class="login_signup_button" id="mybtn" onclick="openModal()">
+        LogIn
+       </button>
+    </header>
+
+     <!--Home section-->
+
+  <section id="home">
+
+    <!--LOGIN/SIGNUP-->
+    <div class="modal" id="mymodal" role="dialog">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="login-wrap" id="modal">
+                  <div class="login-html">
+                      <button type="button" class="close-modal-button" onclick="closeModal()"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                      <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+                      <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                      <!-- Login Form -->
+                      <div class="login-form">
+                      <form class="login-form" action="/login" method="post" id="loginForm">
+                          <div class="sign-in-htm" id="loginForm">
+                              <div class="group">
+                                  <label for="login-user" class="label">Username</label>
+                                  <input id="login-user" name="username" type="text" class="input">
+                              </div>
+                              <div class="group">
+                                  <label for="login-pass" class="label">Password</label>
+                                  <input id="login-pass" name="password" type="password" class="input" data-type="password">
+                              </div>
+                              <div class="group">
+                                  <input id="check" type="checkbox" class="check" checked>
+                                  <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                              </div>
+                              <div class="group">
+                                  <input type="submit" class="button" value="Sign In">
+                              </div>
+                              <div class="hr"></div>
+                              <div class="foot-lnk">
+                                  <a id="forgot" href="#forgot">Forgot Password?</a>
+                              </div>
+                          </div>
+                      </form>
+                      <!-- Signup Form -->
+                      <form class="sign-up-htm" action="/signup" method="post" id="signupForm">
+                          <div class="sign-up-htm" id="signupForm">
+                              <div class="group">
+                                  <label for="signup-user" class="label">Username</label>
+                                  <input id="signup-user" name="username" type="text" class="input">
+                              </div>
+                              <div class="group">
+                                  <label for="signup-pass" class="label">Password</label>
+                                  <input id="signup-pass" name="password" type="password" class="input" data-type="password">
+                              </div>
+                              <div class="group">
+                                  <label for="signup-repeat-pass" class="label">Repeat Password</label>
+                                  <input id="signup-repeat-pass" name="repeatPassword" type="password" class="input" data-type="password">
+                              </div>
+                              <div class="group">
+                                  <label for="signup-email" class="label">Email Address</label>
+                                  <input id="signup-email" name="email" type="email" class="input">
+                              </div>
+                              <div class="group">
+                                <label for="signup-phone" class="label">Phone Number</label>
+                                <input id="signup-phone" name="phone" type="tel" class="input">
+                            </div>
+                              <div class="group">
+                                  <input type="submit" class="button" value="Sign Up">
+                              </div>
+                              
+                              <div class="hr"></div>
+                              <div class="foot-lnk">
+                                  <label for="tab-1">Already Member?</label>
+                              </div>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+    <!--END OF LOGIN SIGNUP-->
+
+    <div class="slider_container">
+      <img class="image fade1" class="slider_image" src="images/image 3.jpg">
+      <img class="image fade1" class="slider_image" src="images/image 2.jpg">
+      <img class="image fade1" class="slider_image" src="images/image 1.jpg">
+    </div>
+</section>
+
+
+
+     <!--About mymental section-->
+
+     <section id="about">
+      <div class="about_image_container">
+        <img class="about_image" src="images/mymental_logo.png">
+        <h3 class="about_image_name">
+         MYMENTAL
+        </h3>
+        </div>
+        <div class="about_info_container">
+          <p class="about_info">
+            Welcome to our MyMental Chat Bot – your companion for mental wellness. Our AI-driven chatbot is designed to provide you with support, guidance, and information whenever you need it. It's private, accessible 24/7, and tailored to help you manage your mental health.
+            <br></br>
+            
+            Our Mental Health Chat Bot utilizes advanced AI technology to offer empathetic, confidential, and informed support. It's a space where you can express your thoughts and feelings without judgment. The chatbot is programmed to understand a wide range of mental health issues and provide appropriate responses and resources.
+            <br></br>
+
+            Your privacy is our top priority. Conversations with the chatbot are confidential and secure. The chatbot is designed to respect user privacy and ensure data security. <a class="read-more" href="about.html">Read more</a>
+
+          </p>
+        </div>
+     </section>
+
+    <!--did you know section-->
+
+   <section class="did_you_know">
+
+    <h1 class="did_you_know_text"> Did You Know?  </h1>
+      <div class="did_know_container">
+        <img class="image1"  src="images/did you know 1.jpg">
+        <img class="image1"  src="images/did you know 2.jpg">
+        <img class="image1"  src="images/did you know 3.png">
+      </div>
+   </section>
+
+   <!--Services section-->
+
+   <section id="services">
+
+    <div class="row">
+      <h2 class="section-heading">Our Services</h2>
+    </div>
+  
+
+    <div class="row">
+    
+      <div class="column">
+        <a href="depression.html">
+        <div class="card">
+          <h3>DEPRESSION</h3>
+          <p>
+            Depression (also known as major depression, major depressive disorder, or clinical depression) is a common but serious mood disorder. It causes severe symptoms that affect how a person feels, thinks, and handles daily activities, such as sleeping, eating, or working.
+          </p>
+        </div>
+      </a>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          
+          <h3>ADDICATION</h3>
+          <p>
+            Addiction Services support the provision of an integrated range of preventative, therapeutic and rehabilitation services to meet the diverse health and social care needs of our service users in an accountable, accessible and equitable manner.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          
+          <h3>CAREER</h3>
+          <p>
+            Career Services helps students who have been spending most of their life learning to be able to learn through Job placement and skill development.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+
+          <h3>RELATIONSHIPS</h3>
+          <p>
+            Relationship counselling aims to improve the important relationships in your life and can take the form of couples or individual counselling.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          
+          <h3>FINANCIAL</h3>
+          <p>
+            financial counselling helps you manage your debts and get your finances back under control. Financial counsellors are skilled professionals who provide advice and support to people struggling with bills and debt.
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  
+   </section>
+
+<!--FOOTER SECTION-->
+   <footer>
+    <div class="row primary">
+      <div class="column about">
+        <h3>MyMental</h3>
+        <p>
+          Our Mental Health Chat Bot utilizes advanced AI technology to offer empathetic, confidential, and informed support. It's a space where you can express your thoughts and feelings without judgment. The chatbot is programmed to understand a wide range of mental health issues and provide appropriate responses and resources.
+        </p>
+      </div>
+      <div class="column links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="base.html">ChatBot</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div class="column contact">
+        <h3>Let Us Contact You</h3>
+        <div>
+          <input type="email" placeholder="Your email id here" />
+          <button>Reach out</button>
+        </div>
+        <div class="social">
+          <i class="fa-brands fa-facebook-square"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+        </div>
+      </div>
+    </div>
+   
+    <div class="row copyright">
+      <p>Copyright &copy; 2024 MyMental | All Rights Reserved</p>
+    </div>
+   </footer>
+
+   <script src="https://kit.fontawesome.com/f8a7c6d481.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>

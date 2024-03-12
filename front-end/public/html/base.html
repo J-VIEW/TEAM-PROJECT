@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="base.css" />
+  <script src="chat.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatbot</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180*180"
+      href="images/mmental_logo.png"
+    />
+  </head>
+  <body class="body">
+    <!--header section-->
+    <header>
+      <div class="logo_container">
+        <img class="logo_image" src="images/mymental_logo.png" />
+        <h3 class="logo_name">MYMENTAL</h3>
+      </div>
+      <nav>
+        <ul>
+          <a href="index.html"><li>HOME</li></a>
+          <a href="about.html"><li>ABOUT</li></a>
+          <a href="index.html"><li>SERVICES</li></a>
+          <a href="base.html"><li>CHATBOT</li></a>
+        </ul>
+      </nav>
+
+      <button type="button" class="logout_button" id="logoutButton">
+        Logout
+      </button>
+    </header>
+
+    <!--Quote-->
+    <div class="quote-container">
+      <p>
+        “It’s okay to have bad days and ask for support when you need it.”
+        <br /><br /><br /><span class="quote2">
+          “You are not a burden for seeking help for your mental health.”</span
+        >
+        <br /><br /><br /><span class="quote3">
+          “Your mental health is just as important as your career or
+          education.”</span
+        >
+      </p>
+    </div>
+
+    <h3 class="mymental">#My Mental Health Matters</h3>
+
+    <div class="container">
+      <div class="chatbox">
+        <div class="chatbox__support">
+          <div class="chatbox__header">
+            <div class="chatbox__image--header">
+              <img
+                src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
+                alt="image"
+              />
+            </div>
+            <div class="chatbox__content--header">
+              <h4 class="chatbox__heading--header">MyMental Chatbot</h4>
+            </div>
+          </div>
+          <div class="chatbox__messages">
+            <div></div>
+          </div>
+          <div class="chatbox__footer">
+            <input type="text" placeholder="Write a message..." />
+            <button class="chatbox__send--footer send__button">Send</button>
+          </div>
+        </div>
+        <div class="chatbox__button">
+          <button>
+            <img class="chat-button" src="images/mymental_logo.png" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

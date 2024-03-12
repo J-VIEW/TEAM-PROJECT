@@ -1,0 +1,14 @@
+.close-modal-button {
+  position: absolute;
+  top: 0;
+  right: -235px;
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  cursor: pointer;
+  margin-top: -37px;
+}
+
+.close-modal-button:hover {
+  color: red;
+}

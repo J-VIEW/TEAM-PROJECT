@@ -1,0 +1,30 @@
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Add more styles as needed */
